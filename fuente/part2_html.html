@@ -1,0 +1,1351 @@
+<body>
+<div class="glow glow-teal"></div><div class="glow glow-magenta"></div><div class="glow glow-gold"></div><div class="grain"></div>
+
+<div class="stage">
+
+  <!-- ============ Copia lateral izquierda (desktop) ============ -->
+  <aside class="side-copy">
+    <div class="logo-row">
+      <div class="logo-mark" aria-hidden="true">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M6 8.5C6 6.6 7.6 5 9.5 5h11C22.4 5 24 6.6 24 8.5v7c0 1.9-1.6 3.5-3.5 3.5H14l-5.2 4.6c-.8.7-2 .1-2-1V19h-.8C4.6 19 3 17.4 3 15.5v-7C3 6.6 4.6 5 6.5 5Z" fill="#fff" opacity=".95"/><circle cx="15" cy="12" r="2.1" fill="#065f46"/></svg>
+      </div>
+      <div>
+        <div class="logo-name">Ca<em>ribe</em></div>
+        <div class="logo-tag">La super app del Caribe</div>
+      </div>
+    </div>
+
+    <h1>Todo el <span class="grad">Caribe</span>,<br>en tu bolsillo.</h1>
+    <p class="lede">Mensajería, estados, transmisiones en vivo, videos cortos, compraventa y negocios locales — una sola app, hecha con sabor dominicano. Chatea con amigos y familiares que también tengan Caribe.</p>
+
+    <div class="feat">
+      <div class="feat-row"><div class="feat-tile">💬</div><div><b>Chats reales</b><span>Mensajes entre personas registradas, con fotos y notas de voz</span></div></div>
+      <div class="feat-row"><div class="feat-tile">🎭</div><div><b>Estados y En vivo</b><span>Publica tu estado para tus amigos; transmite en directo a tus amigos (hasta 8 espectadores)</span></div></div>
+      <div class="feat-row"><div class="feat-tile">🎬</div><div><b>Vibra</b><span>Videos cortos de tu barrio — tu feed empieza vacío: sé la primera persona</span></div></div>
+      <div class="feat-row"><div class="feat-tile">🏪</div><div><b>Market + Negocios</b><span>Publica lo tuyo y vende a tus vecinos cuando se unan</span></div></div>
+      <div class="feat-row"><div class="feat-tile">🎙️</div><div><b>Notas de voz</b><span>Mensajes de voz reales, con el micrófono de tu teléfono</span></div></div>
+    </div>
+
+    <div class="side-foot">🇩🇴 Diseñado para la República Dominicana · Caribe v2.4.1</div>
+  </aside>
+
+  <!-- ============ Teléfono ============ -->
+  <div class="phone-col">
+    <div class="phone-wrap">
+      <div class="phone">
+        <div class="side-btn power"></div><div class="side-btn vol-up"></div><div class="side-btn vol-down"></div><div class="side-btn action"></div>
+
+        <div class="screen" id="screen" data-theme="light">
+          <!-- ============ REGISTRO OBLIGATORIO (Caribe en línea) ============ -->
+          <div class="reg-overlay" id="regOverlay" role="dialog" aria-modal="true" aria-label="Registro de Caribe">
+            <form class="reg-card" id="regForm" novalidate>
+              <div class="reg-logo" aria-hidden="true"><svg width="38" height="38" viewBox="0 0 30 30" fill="none"><path d="M6 8.5C6 6.6 7.6 5 9.5 5h11C22.4 5 24 6.6 24 8.5v7c0 1.9-1.6 3.5-3.5 3.5H14l-5.2 4.6c-.8.7-2 .1-2-1V19h-.8C4.6 19 3 17.4 3 15.5v-7C3 6.6 4.6 5 6.5 5Z" fill="#ffffff"/><circle cx="15" cy="12" r="2.15" fill="#0d9488"/></svg></div>
+              <h2>Bienvenido a Caribe</h2>
+              <p class="reg-sub">Regístrate con tu nombre y tu número para chatear con los amigos que ya tienen la app.</p>
+              <label class="reg-label" for="regName">Nombre completo</label>
+              <input class="reg-input" id="regName" type="text" placeholder="Ej. Génesis Eury" maxlength="60" autocomplete="name">
+              <label class="reg-label" for="regCountry">País</label>
+              <select class="reg-input reg-select" id="regCountry">
+                <option value="República Dominicana" data-dial="+1 809" selected>República Dominicana · +1 809</option>
+                <option value="Puerto Rico" data-dial="+1 787">Puerto Rico · +1 787</option>
+                <option value="Estados Unidos" data-dial="+1 212">Estados Unidos · +1 212</option>
+                <option value="Canadá" data-dial="+1 416">Canadá · +1 416</option>
+                <option value="México" data-dial="+52">México · +52</option>
+                <option value="Cuba" data-dial="+53">Cuba · +53</option>
+                <option value="Haití" data-dial="+509">Haití · +509</option>
+                <option value="Jamaica" data-dial="+1 876">Jamaica · +1 876</option>
+                <option value="Bahamas" data-dial="+1 242">Bahamas · +1 242</option>
+                <option value="Barbados" data-dial="+1 246">Barbados · +1 246</option>
+                <option value="Trinidad y Tobago" data-dial="+1 868">Trinidad y Tobago · +1 868</option>
+                <option value="Antigua y Barbuda" data-dial="+1 268">Antigua y Barbuda · +1 268</option>
+                <option value="Granada" data-dial="+1 473">Granada · +1 473</option>
+                <option value="Dominica" data-dial="+1 767">Dominica · +1 767</option>
+                <option value="San Cristóbal y Nieves" data-dial="+1 869">San Cristóbal y Nieves · +1 869</option>
+                <option value="Santa Lucía" data-dial="+1 758">Santa Lucía · +1 758</option>
+                <option value="San Vicente y las Granadinas" data-dial="+1 784">San Vicente y las Granadinas · +1 784</option>
+                <option value="Aruba" data-dial="+297">Aruba · +297</option>
+                <option value="Curaçao" data-dial="+599">Curaçao · +599</option>
+                <option value="Panamá" data-dial="+507">Panamá · +507</option>
+                <option value="Costa Rica" data-dial="+506">Costa Rica · +506</option>
+                <option value="Colombia" data-dial="+57">Colombia · +57</option>
+                <option value="Venezuela" data-dial="+58">Venezuela · +58</option>
+                <option value="España" data-dial="+34">España · +34</option>
+                <option value="Italia" data-dial="+39">Italia · +39</option>
+                <option value="Francia" data-dial="+33">Francia · +33</option>
+              </select>
+              <label class="reg-label" for="regPhone">Número de teléfono</label>
+              <div class="reg-phone-row">
+                <span class="reg-dial" id="regDial">+1 809</span>
+                <input class="reg-input" id="regPhone" type="tel" inputmode="tel" autocomplete="tel-national" placeholder="809 555 0101" maxlength="18">
+              </div>
+              <p class="reg-error" id="regError" role="alert"></p>
+              <button class="reg-cta" id="regSubmit" type="submit">Crear mi cuenta</button>
+              <p class="reg-foot">Tu número solo se usa para que tus amigos te encuentren en Caribe.<br>Sin spam ni listas compartidas.</p>
+            </form>
+          </div>
+
+          <div class="island"><div class="cam"></div></div>
+          <div class="statusbar" id="statusbar">
+            <span id="sbTime">15:23</span>
+            <div class="sb-icons">
+              <svg width="18" height="12" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="7" width="3" height="4.5" rx="1"/><rect x="5" y="5" width="3" height="6.5" rx="1"/><rect x="10" y="2.5" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="11.5" rx="1"/></svg>
+              <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x="0.5" y="0.5" width="20" height="11" rx="3" stroke="currentColor" opacity=".5"/><rect x="2.2" y="2.2" width="13" height="7.6" rx="1.6" fill="currentColor"/><path d="M23 4v4c1-.3 1.6-1 1.6-2S24 4.3 23 4Z" fill="currentColor" opacity=".5"/></svg>
+            </div>
+          </div>
+
+          <!-- ============ PÁGINA: CHATS ============ -->
+          <section class="page active" id="page-chats" aria-label="Chats">
+            <header class="page-header">
+              <h1>Chats</h1>
+                            <div class="header-actions">
+                <button class="me-chip" data-open-profile="me" aria-label="Mi perfil"><span class="me-chip-av">T</span></button>
+                <button class="icon-btn more-btn" data-moremenu="menu-chats" aria-label="Más opciones" aria-haspopup="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.9"/><circle cx="12" cy="12" r="1.9"/><circle cx="12" cy="19" r="1.9"/></svg></button>
+              <div class="more-menu" id="menu-chats" hidden role="menu">
+                <button class="more-item" id="btnNewChat" role="menuitem"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L10 16l-4 1 1-4L16.5 3.5Z"/></svg><span>Nuevo chat</span></button>
+                <button class="more-item" id="menuNewGroup" role="menuitem"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.6"/><path d="M2.8 20a6.2 6.2 0 0 1 12.4 0M16 4.6a3.6 3.6 0 0 1 0 6.8M18.6 14.2A6.2 6.2 0 0 1 21.2 20"/></svg><span>Nuevo grupo</span></button>
+                <button class="more-item" id="menuNewCommunity" role="menuitem"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H9l-5 4V6Z"/><path d="M9 9.5h6M9 12.5h4"/></svg><span>Nueva comunidad</span></button>
+                <button class="more-item" id="menuBroadcasts" role="menuitem"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11v3a1.5 1.5 0 0 0 1.5 1.5H7l5 4V7.5l-5 4H4.5A1.5 1.5 0 0 0 3 13Z"/><path d="M16 9.5a4 4 0 0 1 0 6M18.7 7a8 8 0 0 1 0 10"/></svg><span>Listas de difusión</span></button>
+                <button class="more-item" id="menuLinkedDevices" role="menuitem"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="13" height="10" rx="1.6"/><path d="M7 19h6M10 15v4M17.5 9h3A1.5 1.5 0 0 1 22 10.5v5a1.5 1.5 0 0 1-1.5 1.5h-3"/></svg><span>Dispositivos vinculados</span></button>
+                <button class="more-item" id="menuStarred" role="menuitem"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.6l2.9 5.9 6.5 1-4.7 4.6 1.1 6.5L12 17.5 6.2 20.6l1.1-6.5L2.6 9.5l6.5-1L12 2.6Z"/></svg><span>Destacados</span></button>
+                <button class="more-item" id="menuChatsReadAll" role="menuitem"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m2.5 12.5 4.5 4.5L13 10.5"/><path d="m10.5 13.5 2.5 2.5L21 9"/></svg><span>Marcar todos como leídos</span></button>
+                <button class="more-item" data-settings role="menuitem"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1.04 1.56V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1.04-1.56 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.7 1.7 0 0 0 .34-1.87 1.7 1.7 0 0 0-1.56-1.04H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.65 8.4a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.7 1.7 0 0 0 1.87.34h.08a1.7 1.7 0 0 0 1.04-1.56V3a2 2 0 1 1 4 0v.09c0 .68.4 1.3 1.04 1.56a1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87v.08c.26.64.88 1.04 1.56 1.04H21a2 2 0 1 1 0 4h-.09c-.68 0-1.3.4-1.51 1Z"/></svg><span>Ajustes</span></button>
+              </div>
+              </div>
+            </header>
+
+            <label class="searchbar">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+              <input id="chatSearch" type="text" placeholder="Buscar o empezar un chat nuevo" autocomplete="off">
+            </label>
+
+            <div class="chips" id="chatChips">
+              <button class="chip active" data-filter="all">Todos</button>
+              <button class="chip" data-filter="unread">No leídos</button>
+              <button class="chip" data-filter="group">Grupos</button>
+              <button class="chip" data-filter="business">🏪 Negocios</button>
+            </div>
+
+            <div class="scroll"><div class="chat-list" id="chatList"></div></div>
+            <button class="fab-newchat" id="fabNewChat" aria-label="Nuevo chat">
+              <svg width="27" height="27" viewBox="0 0 24 24" aria-hidden="true"><path fill="#06382c" d="M20.4 11.6a8 8 0 0 1-8.2 7.7 8.5 8.5 0 0 1-3.6-.7L3.2 20.3l1.7-5.1a7.3 7.3 0 0 1-.9-3.6 8 8 0 0 1 8.2-7.7 8 8 0 0 1 8.2 7.7Z"/><path stroke="#14d699" stroke-width="1.9" stroke-linecap="round" d="M12 8.7v5.4M9.3 11.4h5.4"/></svg>
+            </button>
+          </section>
+
+          <!-- ============ PÁGINA: ESTADOS ============ -->
+          <section class="page" id="page-estados" aria-label="Estados">
+            <header class="page-header">
+              <h1>Estados</h1>
+                            <div class="header-actions">
+                <button class="me-chip" data-open-profile="me" aria-label="Mi perfil"><span class="me-chip-av">T</span></button>
+                <button class="icon-btn more-btn" data-moremenu="menu-estados" aria-label="Más opciones" aria-haspopup="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.9"/><circle cx="12" cy="12" r="1.9"/><circle cx="12" cy="19" r="1.9"/></svg></button>
+              <div class="more-menu" id="menu-estados" hidden role="menu">
+                <button class="more-item" id="menuStatusPrivacy" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6.5v5c0 4.6 3.2 8.9 7.5 10 4.3-1.1 7.5-5.4 7.5-10v-5L12 3Z"/><path d="m9.5 12 2 2 3.5-3.5"/></svg><span>Privacidad de estado</span></button>
+                <button class="more-item" id="menuHighlights" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.6l2.9 5.9 6.5 1-4.7 4.6 1.1 6.5L12 17.5 6.2 20.6l1.1-6.5L2.6 9.5l6.5-1L12 2.6Z"/></svg><span>Destacados</span></button>
+                <button class="more-item" id="menuStatusClear" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9.5 7V5a1.5 1.5 0 0 1 1.5-1.5h2A1.5 1.5 0 0 1 14.5 5v2M6.5 7l1 13a1.8 1.8 0 0 0 1.8 1.7h5.4a1.8 1.8 0 0 0 1.8-1.7l1-13"/></svg><span>Borrar mi estado</span></button>
+                <button class="more-item" data-settings role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1.04 1.56V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1.04-1.56 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.7 1.7 0 0 0 .34-1.87 1.7 1.7 0 0 0-1.56-1.04H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.65 8.4a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.7 1.7 0 0 0 1.87.34h.08a1.7 1.7 0 0 0 1.04-1.56V3a2 2 0 1 1 4 0v.09c0 .68.4 1.3 1.04 1.56a1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87v.08c.26.64.88 1.04 1.56 1.04H21a2 2 0 1 1 0 4h-.09c-.68 0-1.3.4-1.51 1Z"/></svg><span>Ajustes</span></button>
+              </div>
+              </div>
+            </header>
+
+            <div class="scroll">
+              <div id="liveNowList"></div>
+              <button class="live-card" id="openLiveBtn">
+                <span class="live-pill"><span class="live-dot"></span> En vivo</span>
+                <h2>Ir en vivo</h2>
+                <p>Transmite con tu cámara y tus amigos con Caribe te ven en directo y comentan en vivo (hasta 8 a la vez).</p>
+                <span class="live-tap"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>
+              </button>
+
+              <div class="my-status" id="myStatusBar" role="button" tabindex="0" aria-label="Mi estado — abrir la cámara">
+                <div class="avatar" id="myAvatar">TÚ<span class="my-plus"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></div>
+                <div style="min-width:0"><b>Mi estado</b><span id="myStatusSub">Toca para añadir texto, foto o video</span></div>
+                <div class="status-actions">
+                  <button class="mini-act" id="quickPhotoBtn" aria-label="Cámara"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-2.5h6L17 8h3a1.6 1.6 0 0 1 1.6 1.6v9.8A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6V9.6A1.6 1.6 0 0 1 4 8Z"/><circle cx="12" cy="13.4" r="3.6"/></svg></button>
+                  <button class="mini-act" id="quickTextBtn" aria-label="Texto"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L10 16l-4 1 1-4L16.5 3.5Z"/></svg></button>
+                </div>
+              </div>
+
+              <div class="highlight-wrap" id="highlightWrap" hidden>
+                <div class="section-label">⭐ Destacados</div>
+                <div class="highlight-strip" id="highlightStrip"></div>
+              </div>
+              <div class="section-label">Recientes</div>
+              <div id="statusList"></div>
+              <div style="height:20px"></div>
+            </div>
+          </section>
+
+          <!-- ============ PÁGINA: VIBRA ============ -->
+          <section class="page page-vibra" id="page-vibra" aria-label="Vibra">
+            <div class="vibra-head">
+              <h1>Vibra</h1>
+                            <div class="header-actions">
+                <button class="me-chip" data-open-profile="me" aria-label="Mi perfil"><span class="me-chip-av">T</span></button>
+                <button class="icon-btn more-btn" data-moremenu="menu-vibra" aria-label="Más opciones" aria-haspopup="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.9"/><circle cx="12" cy="12" r="1.9"/><circle cx="12" cy="19" r="1.9"/></svg></button>
+              <div class="more-menu" id="menu-vibra" hidden role="menu">
+                <button class="more-item" id="menuVibraRefresh" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 2.6-6.3L3 8"/><path d="M3 3v5h5"/></svg><span>Actualizar feed</span></button>
+                <button class="more-item" data-soon="Buscar en Vibra 🔎 — próximamente" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><span>Buscar en Vibra</span></button>
+                <button class="more-item theme-toggle" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg><span>Cambiar tema</span></button>
+                <button class="more-item" data-settings role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1.04 1.56V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1.04-1.56 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.7 1.7 0 0 0 .34-1.87 1.7 1.7 0 0 0-1.56-1.04H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.65 8.4a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.7 1.7 0 0 0 1.87.34h.08a1.7 1.7 0 0 0 1.04-1.56V3a2 2 0 1 1 4 0v.09c0 .68.4 1.3 1.04 1.56a1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87v.08c.26.64.88 1.04 1.56 1.04H21a2 2 0 1 1 0 4h-.09c-.68 0-1.3.4-1.51 1Z"/></svg><span>Ajustes</span></button>
+              </div>
+              </div>
+            </div>
+            <div class="vibra-tabs" id="vibraTabs">
+              <button class="vtab active" data-vtab="para-ti">Para ti</button>
+              <button class="vtab" data-vtab="cerca">Cerca de ti</button>
+              <button class="vtab" data-vtab="siguiendo">Siguiendo</button>
+              <button class="vtab" data-vtab="comunidad">Comunidad</button>
+              <button class="plus-btn" id="vibraPlusBtn" aria-label="Subir Vibra"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
+            </div>
+            <div class="feed" id="vibraFeed"></div>
+            <div class="community-wrap" id="communityWrap" style="display:none">
+              <div class="community-search"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.8-3.8"/></svg><input id="communitySearch" type="search" placeholder="Buscar en la comunidad…" autocomplete="off" aria-label="Buscar en la comunidad"></div>
+              <div class="community-grid" id="communityGrid"></div>
+              <div class="community-empty" id="communityEmpty" hidden>Aún no hay publicaciones en la comunidad 🌴<br><span style="font-size:11px;color:var(--muted)">Las fotos y videos de la gente aparecerán aquí.</span></div>
+            </div>
+          </section>
+
+          <!-- Comunidad: visor de publicación -->
+          <div class="community-viewer" id="communityViewer" role="dialog" aria-modal="true" aria-label="Publicación de la comunidad">
+            <img class="cmv-img" id="cmViewerImg" alt="Foto de la comunidad">
+            <button class="cmv-close" id="cmViewerClose" aria-label="Cerrar"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+            <div class="cmv-bottom">
+              <button class="cmv-author" id="cmViewerAuthor" aria-label="Ver perfil">
+                <span class="cmv-av" id="cmViewerAv">LV</span>
+                <span class="cmv-aname"><b id="cmViewerName">La Vega Vibes</b><small id="cmViewerHandle">@lavega.vibes</small></span>
+              </button>
+              <p class="cmv-caption" id="cmViewerCaption"></p>
+              <div class="cmv-actions">
+                <button class="cmv-act" id="cmViewerLike" aria-pressed="false"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 20.7 4.5 13.3a5.35 5.35 0 0 1 0-7.6 5.3 5.3 0 0 1 7.5 0l.0.1.0-.1a5.3 5.3 0 0 1 7.5 0 5.35 5.35 0 0 1 0 7.6L12 20.7Z"/></svg><b id="cmViewerLikeCount">0</b></button>
+                <button class="cmv-act" id="cmViewerShare"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M8 6.5 12 2.5l4 4"/><path d="M6 11H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-1"/></svg>Compartir</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- ============ PÁGINA: MARKET ============ -->
+          <section class="page" id="page-market" aria-label="Marketplace">
+            <header class="page-header">
+              <h1>Marketplace</h1>
+                            <div class="header-actions">
+                <button class="me-chip" data-open-profile="me" aria-label="Mi perfil"><span class="me-chip-av">T</span></button>
+                <button class="icon-btn more-btn" data-moremenu="menu-market" aria-label="Más opciones" aria-haspopup="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.9"/><circle cx="12" cy="12" r="1.9"/><circle cx="12" cy="19" r="1.9"/></svg></button>
+              <div class="more-menu" id="menu-market" hidden role="menu">
+                <button class="more-item" id="menuMarketSell" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"/><circle cx="7.5" cy="7.5" r="1.1" fill="currentColor" stroke="none"/></svg><span>Publicar anuncio</span></button>
+                <button class="more-item" id="menuMarketSortPrice" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4v16"/><path d="m3.5 16.5 3.5 3.5 3.5-3.5"/><path d="M17 20V4"/><path d="m13.5 7.5 3.5-3.5 3.5 3.5"/></svg><span>Ordenar por precio ↑</span></button>
+                <button class="more-item theme-toggle" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg><span>Cambiar tema</span></button>
+                <button class="more-item" data-settings role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1.04 1.56V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1.04-1.56 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.7 1.7 0 0 0 .34-1.87 1.7 1.7 0 0 0-1.56-1.04H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.65 8.4a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.7 1.7 0 0 0 1.87.34h.08a1.7 1.7 0 0 0 1.04-1.56V3a2 2 0 1 1 4 0v.09c0 .68.4 1.3 1.04 1.56a1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87v.08c.26.64.88 1.04 1.56 1.04H21a2 2 0 1 1 0 4h-.09c-.68 0-1.3.4-1.51 1Z"/></svg><span>Ajustes</span></button>
+              </div>
+              </div>
+            </header>
+
+            <label class="searchbar">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+              <input id="marketSearch" type="text" placeholder="Busca: celular, nevera, tenis, moto…" autocomplete="off">
+            </label>
+
+            <div class="chips" id="marketChips">
+              <button class="chip active" data-mcat="all">Todos</button>
+              <button class="chip" data-mcat="vehiculos">Vehículos</button>
+              <button class="chip" data-mcat="alquiler">Alquiler de propiedades</button>
+            </div>
+
+            <button class="sell-btn" id="openSellBtn">🏪 Vender algo</button>
+
+            <div class="loc-sort">
+              <button class="loc-pill" id="locBtn"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a7.5 7.5 0 0 0-7.5 7.5c0 5.2 6.5 12.2 6.8 12.5a1 1 0 0 0 1.4 0c.3-.3 6.8-7.3 6.8-12.5A7.5 7.5 0 0 0 12 2Zm0 10.4a2.9 2.9 0 1 1 0-5.8 2.9 2.9 0 0 1 0 5.8Z"/></svg><span id="locLabel">Toda República Dominicana</span></button>
+              <select class="sort-sel" id="sortSel" aria-label="Ordenar">
+                <option value="recent">Más recientes</option>
+                <option value="price-asc">Menor precio</option>
+                <option value="price-desc">Mayor precio</option>
+              </select>
+            </div>
+
+            <div class="scroll">
+              <div class="sel-head"><span>Selección de hoy · <b id="selCount">8</b></span><span id="marketCountNote"></span></div>
+              <div class="market-grid" id="marketGrid"></div>
+            </div>
+          </section>
+
+          <!-- ============ PÁGINA: NEGOCIOS ============ -->
+          <section class="page" id="page-negocios" aria-label="Negocios">
+            <header class="page-header">
+              <h1>Negocios</h1>
+                            <div class="header-actions">
+                <button class="me-chip" data-open-profile="me" aria-label="Mi perfil"><span class="me-chip-av">T</span></button>
+                <button class="icon-btn more-btn" data-moremenu="menu-negocios" aria-label="Más opciones" aria-haspopup="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.9"/><circle cx="12" cy="12" r="1.9"/><circle cx="12" cy="19" r="1.9"/></svg></button>
+              <div class="more-menu" id="menu-negocios" hidden role="menu">
+                <button class="more-item" id="menuBizOrders" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h12a1 1 0 0 1 1 1v18l-3-2-3 2-3-2-3 2-3-2-3 2V3a1 1 0 0 1 1-1Z"/><path d="M9 7h6M9 11h6M9 15h4"/></svg><span>Mis pedidos</span></button>
+                <button class="more-item" id="menuBizMine" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10 5.7 4.5A1.5 1.5 0 0 1 7.1 3.4h9.8a1.5 1.5 0 0 1 1.4 1.1L20 10"/><path d="M4 10h16v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9Z"/><path d="M9.5 13.5h5"/></svg><span>Mi negocio</span></button>
+                <button class="more-item theme-toggle" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg><span>Cambiar tema</span></button>
+                <button class="more-item" data-settings role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1.04 1.56V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1.04-1.56 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.7 1.7 0 0 0 .34-1.87 1.7 1.7 0 0 0-1.56-1.04H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.65 8.4a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.7 1.7 0 0 0 1.87.34h.08a1.7 1.7 0 0 0 1.04-1.56V3a2 2 0 1 1 4 0v.09c0 .68.4 1.3 1.04 1.56a1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87v.08c.26.64.88 1.04 1.56 1.04H21a2 2 0 1 1 0 4h-.09c-.68 0-1.3.4-1.51 1Z"/></svg><span>Ajustes</span></button>
+              </div>
+              </div>
+            </header>
+
+            <label class="searchbar">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+              <input id="bizSearch" type="text" placeholder="Busca un producto o negocio: chimi, uñas…" autocomplete="off">
+            </label>
+
+            <div class="chips" id="bizChips">
+              <button class="chip active" data-bcat="all">Todos</button>
+              <button class="chip" data-bcat="comida">Comida</button>
+              <button class="chip" data-bcat="belleza">Belleza</button>
+              <button class="chip" data-bcat="ropa">Ropa y uniforme</button>
+            </div>
+
+            <button class="biz-banner" id="openBizPublish">
+              <div>
+                <h4>¿Tienes un negocio?</h4>
+                <p>Publícalo gratis y que te<br>encuentren en tu barrio</p>
+              </div>
+              <span class="biz-pub">+ Publicar</span>
+            </button>
+
+            <div class="biz-cta">
+              <button id="openOrders"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h12a1 1 0 0 1 1 1v18l-3-2-3 2-3-2-3 2-3-2-3 2V3a1 1 0 0 1 1-1Z"/><path d="M9 7h6M9 11h6M9 15h4"/></svg>Mis pedidos<span class="order-dot" id="orderDot">1</span></button>
+              <button id="openMyBiz"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10 5.7 4.5A1.5 1.5 0 0 1 7.1 3.4h9.8a1.5 1.5 0 0 1 1.4 1.1L20 10"/><path d="M4 10h16v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9Z"/><path d="M9.5 13h5"/></svg>Mi negocio</button>
+            </div>
+
+            <div class="sel-head"><span>Negocios · <b id="bizCount">6</b></span><span>📍 Santo Domingo</span></div>
+            <div class="scroll"><div class="biz-list" id="bizList"></div></div>
+          </section>
+
+          <!-- ============ PÁGINA: LLAMADAS ============ -->
+          <section class="page" id="page-llamadas" aria-label="Llamadas">
+            <header class="page-header">
+              <h1>Llamadas</h1>
+                            <div class="header-actions">
+                <button class="me-chip" data-open-profile="me" aria-label="Mi perfil"><span class="me-chip-av">T</span></button>
+                <button class="icon-btn more-btn" data-moremenu="menu-llamadas" aria-label="Más opciones" aria-haspopup="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="1.9"/><circle cx="12" cy="12" r="1.9"/><circle cx="12" cy="19" r="1.9"/></svg></button>
+              <div class="more-menu" id="menu-llamadas" hidden role="menu">
+                <button class="more-item" id="menuCallsClear" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9.5 7V5a1.5 1.5 0 0 1 1.5-1.5h2A1.5 1.5 0 0 1 14.5 5v2M6.5 7l1 13a1.8 1.8 0 0 0 1.8 1.7h5.4a1.8 1.8 0 0 0 1.8-1.7l1-13"/></svg><span>Borrar historial</span></button>
+                <button class="more-item" data-soon="Silenciar números desconocidos — próximamente" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.3 6.3A6 6 0 0 0 6 8c0 7-3 9-3 9h12.5"/><path d="M18.2 13.2A6 6 0 0 0 18 8a6 6 0 0 0-2.2-4.5"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/><path d="M4 4l16 16"/></svg><span>Silenciar desconocidos</span></button>
+                <button class="more-item theme-toggle" role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg><span>Cambiar tema</span></button>
+                <button class="more-item" data-settings role="menuitem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1.04 1.56V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1.04-1.56 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.7 1.7 0 0 0 .34-1.87 1.7 1.7 0 0 0-1.56-1.04H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.65 8.4a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.7 1.7 0 0 0 1.87.34h.08a1.7 1.7 0 0 0 1.04-1.56V3a2 2 0 1 1 4 0v.09c0 .68.4 1.3 1.04 1.56a1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87v.08c.26.64.88 1.04 1.56 1.04H21a2 2 0 1 1 0 4h-.09c-.68 0-1.3.4-1.51 1Z"/></svg><span>Ajustes</span></button>
+              </div>
+              </div>
+            </header>
+            <div class="recents-label"><span>Recientes</span><button class="clear-btn" id="clearCallsBtn">Borrar</button></div>
+            <div class="scroll"><div id="callList"></div></div>
+          </section>
+
+          <!-- ============ TAB BAR ============ -->
+          <nav class="tabbar" id="tabbar" aria-label="Secciones">
+            <button class="tab active" data-page="page-chats"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-8.5 8.3 8.9 8.9 0 0 1-3.8-.8L3 21l2.2-5.4a8 8 0 0 1-.7-3.1A8.4 8.4 0 0 1 12.5 4a8.4 8.4 0 0 1 8.5 7.5Z"/></svg><span class="lbl">Chats</span><span class="badge" id="badgeChats" style="display:none">0</span></button>
+            <button class="tab" data-page="page-estados"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="8.4" stroke-dasharray="3.6 3.1"/><circle cx="12" cy="12" r="2.6"/></svg><span class="lbl">Estados</span></button>
+            <button class="tab" data-page="page-vibra"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><path d="M10.4 9.4v5.2l4.6-2.6-4.6-2.6Z" fill="currentColor" stroke="none"/></svg><span class="lbl">Vibra</span></button>
+            <button class="tab" data-page="page-market"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6.2 8h11.6l1.3 12a1.6 1.6 0 0 1-1.6 1.8H6.5A1.6 1.6 0 0 1 4.9 20L6.2 8Z"/><path d="M9 11V6.8a3 3 0 0 1 6 0V11"/></svg><span class="lbl">Market</span></button>
+            <button class="tab" data-page="page-negocios"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4.3 9.6 6 4.8A1.4 1.4 0 0 1 7.3 3.8h9.4a1.4 1.4 0 0 1 1.3 1l1.7 4.8"/><path d="M4.3 9.6h15.4v9.2a1.8 1.8 0 0 1-1.8 1.8H6.1a1.8 1.8 0 0 1-1.8-1.8V9.6Z"/><path d="M9.8 13h4.4"/></svg><span class="lbl">Negocios</span></button>
+            <button class="tab" data-page="page-llamadas"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 3.5h3.6l1.7 4.6-2.3 1.7a13 13 0 0 0 6.7 6.7l1.7-2.3 4.6 1.7v3.6a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 3.5 5.7a2 2 0 0 1 2-2.2Z"/></svg><span class="lbl">Llamadas</span></button>
+          </nav>
+
+          <!-- ============ OVERLAY: CONVERSACIÓN ============ -->
+          <div class="convo" id="convoOverlay" role="dialog" aria-label="Conversación">
+            <div class="convo-head">
+              <button class="icon-btn" id="closeConvo" aria-label="Volver"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+              <div class="avatar" id="convoAvatar">M</div>
+              <div class="convo-peer" id="convoPeerInfo"><b id="convoName">Caribe</b><span id="convoStatus"></span></div>
+              <button class="icon-btn" id="convoSearchBtn" aria-label="Buscar en el chat"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></button>
+              <button class="icon-btn" id="convoVideoBtn" aria-label="Videollamada"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6.5" width="13" height="11" rx="2.5"/><path d="m15.5 10.7 5.2-3.2v9l-5.2-3.2"/></svg></button>
+              <button class="icon-btn" id="convoCallBtn" aria-label="Llamar"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 3.5h3.6l1.7 4.6-2.3 1.7a13 13 0 0 0 6.7 6.7l1.7-2.3 4.6 1.7v3.6a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 3.5 5.7a2 2 0 0 1 2-2.2Z"/></svg></button>
+            </div>
+            <div class="convo-search" id="convoSearch" hidden>
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+              <input id="convoSearchInput" type="text" placeholder="Buscar en el chat…" autocomplete="off" maxlength="80">
+              <button class="convo-search-x" id="convoSearchClose" aria-label="Cerrar búsqueda"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+            </div>
+            <div class="messages" id="messages"></div>
+            <div class="typing-bubble" id="typingBubble"><i></i><i></i><i></i></div>
+            <div class="emoji-popover" id="emojiPopover"></div>
+            <div class="composer">
+              <button class="cbtn" id="emojiBtn" aria-label="Emojis"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.2a4.5 4.5 0 0 0 7 0"/><path d="M9.3 9.4h.01M14.7 9.4h.01" stroke-width="2.6"/></svg></button>
+              <button class="cbtn" id="attachBtn" aria-label="Adjuntar"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m20 11-8.5 8.5a5.3 5.3 0 0 1-7.5-7.5l9-9a3.6 3.6 0 0 1 5 5l-9 9a1.8 1.8 0 0 1-2.5-2.5l8.4-8.4"/></svg></button>
+              <button class="cbtn" id="chatCamBtn" aria-label="Cámara"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-2.5h6L17 8h3a1.6 1.6 0 0 1 1.6 1.6v9.8A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6V9.6A1.6 1.6 0 0 1 4 8Z"/><circle cx="12" cy="13.4" r="3.6"/></svg></button>
+              <div class="composer-input"><input id="msgInput" type="text" placeholder="Mensaje" autocomplete="off" maxlength="500"></div>
+              <button class="send-fab" id="sendFab" aria-label="Enviar">
+                <svg id="micIcon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2.5" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0M12 18v3.5"/></svg>
+                <svg id="sendIcon" width="21" height="21" viewBox="0 0 24 24" fill="#fff" style="display:none"><path d="M3.7 11.2 20 3.4c.8-.35 1.55.7 1.15 1.4l-6.6 15.6c-.42 1-1.86 1-2.24.02l-2.5-6.4a.8.8 0 0 0-.5-.5l-6-2.1c-.98-.33-.92-1.68.1-1.97Z"/></svg>
+              </button>
+            </div>
+            <div class="voice-panel" id="voicePanel" hidden role="dialog" aria-label="Grabando nota de voz">
+              <div class="vp-top">
+                <span class="vp-dot" id="vpDot" aria-hidden="true"></span>
+                <span class="vp-time" id="vpTime">0:00</span>
+                <div class="vp-wave" id="vpWave" aria-hidden="true"></div>
+                <span class="vp-ring" aria-hidden="true">
+                  <svg viewBox="0 0 40 40" class="vp-ring-svg"><circle class="vp-ring-bg" cx="20" cy="20" r="16"/><circle class="vp-ring-fg" id="vpRingFg" cx="20" cy="20" r="16"/></svg>
+                  <span class="vp-ring-num" id="vpRingNum">0</span>
+                </span>
+              </div>
+              <div class="vp-bottom">
+                <button class="vp-trash" id="vpCancelBtn" aria-label="Descartar grabación"><svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9.5 7V5a1.5 1.5 0 0 1 1.5-1.5h2A1.5 1.5 0 0 1 14.5 5v2M6.5 7l1 13a1.8 1.8 0 0 0 1.8 1.7h5.4a1.8 1.8 0 0 0 1.8-1.7l1-13"/></svg></button>
+                <button class="vp-pause" id="vpPauseBtn" aria-pressed="false"><svg id="vpPauseIcon" width="20" height="20" viewBox="0 0 24 24" fill="#fff"><rect x="6.6" y="5" width="3.8" height="14" rx="1.4"/><rect x="13.6" y="5" width="3.8" height="14" rx="1.4"/></svg><span id="vpPauseLbl">Pausar</span></button>
+                <button class="vp-send" id="vpSendBtn" aria-label="Enviar audio"><svg width="29" height="29" viewBox="0 0 24 24" fill="#fff"><path d="M3.3 20.5 21.6 13a1.1 1.1 0 0 0 0-2.05L3.3 3.2a1.1 1.1 0 0 0-1.32 1.4L5.6 12 2 19.1a1.1 1.1 0 0 0 1.3 1.4Z"/></svg></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- ============ OVERLAY: INFO DEL CONTACTO (estilo WhatsApp) ============ -->
+          <div class="contact-info" id="contactInfo" role="dialog" aria-modal="true" aria-label="Info. del contacto">
+            <div class="ci-top">
+              <button class="ci-icbtn" id="ciClose" aria-label="Cerrar"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+              <b>Info. del contacto</b>
+              <button class="ci-icbtn" id="ciEditBtn" aria-label="Editar contacto"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L10 16l-4 1 1-4L16.5 3.5Z"/></svg></button>
+            </div>
+            <div class="ci-scroll">
+              <div class="ci-hero">
+                <div class="ci-avatar" id="ciAvatar">C</div>
+                <h2 id="ciName">Contacto</h2>
+                <p id="ciPhone">+1 809-555-0100</p>
+              </div>
+              <div class="ci-actions">
+                <button class="ci-act" id="ciCallBtn"><span class="ci-act-ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 3.5h3.6l1.7 4.6-2.3 1.7a13 13 0 0 0 6.7 6.7l1.7-2.3 4.6 1.7v3.6a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 3.5 5.7a2 2 0 0 1 2-2.2Z"/></svg></span><small>Llamar</small></button>
+                <button class="ci-act" id="ciVideoBtn"><span class="ci-act-ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6.5" width="13" height="11" rx="2.5"/><path d="m15.5 10.7 5.2-3.2v9l-5.2-3.2"/></svg></span><small>Video</small></button>
+                <button class="ci-act" id="ciSearchBtn"><span class="ci-act-ic"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span><small>Buscar</small></button>
+              </div>
+              <div class="ci-card">
+                <div class="ci-card-head"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="14" rx="2.5"/><path d="M3 10h18M9 6V4.5A1.5 1.5 0 0 1 10.5 3h3A1.5 1.5 0 0 1 15 4.5V6"/></svg>Archivos, enlaces y documentos<span class="ci-count" id="ciFilesCount">0</span></div>
+                <div class="ci-media-row" id="ciMediaRow"></div>
+                <div class="ci-empty" id="ciMediaEmpty" hidden>Aún no hay fotos ni documentos.<br>Envía algo desde el clip 📎 y aparecerá aquí.</div>
+              </div>
+              <div class="ci-card ci-list">
+                <button class="ci-item" id="ciStarredBtn"><svg class="ic" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.6l2.9 5.9 6.5 1-4.7 4.6 1.1 6.5L12 17.5 6.2 20.6l1.1-6.5L2.6 9.5l6.5-1L12 2.6Z"/></svg><span class="ci-txt">Mensajes destacados</span><span class="ci-item-val" id="ciStarredCount"></span></button>
+                <button class="ci-item" id="ciMuteBtn" aria-pressed="false"><svg class="ic" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8.7 4.6A6 6 0 0 1 18 8c0 4.6 1.3 7.4 2 8.6M6 6l12 12"/><path d="M10.3 20a2.1 2.1 0 0 0 3.4 0"/></svg><span class="ci-txt">Silenciar notificaciones</span><span class="switch" id="ciMuteSwitch" role="switch" aria-checked="false"></span></button>
+                <button class="ci-item" id="ciDisappearBtn"><svg class="ic" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><span class="ci-txt">Mensajes temporales<small class="ci-sub" id="ciDisappearSub">Desactivados</small></span></button>
+                <button class="ci-item" id="ciLimitedBtn" aria-pressed="false"><svg class="ic" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6.5v5c0 4.6 3.2 8.9 7.5 10 4.3-1.1 7.5-5.4 7.5-10v-5L12 3Z"/><path d="m9.5 12 2 2 3.5-3.5"/></svg><span class="ci-txt">Chat limitado<small class="ci-sub" id="ciLimitedSub">Desactivado</small></span><span class="switch" id="ciLimitedSwitch" role="switch" aria-checked="false"></span></button>
+                <button class="ci-item" id="ciThemeBtn"><svg class="ic" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3.2"/><path d="M12 3.5a8.5 8.5 0 0 1 7.7 5M3.8 15a8.5 8.5 0 0 1 .9-6.2"/></svg><span class="ci-txt">Estilo del chat</span></button>
+                <button class="ci-item" id="ciEncBtn"><svg class="ic" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="10" width="15" height="10.5" rx="2.2"/><path d="M8 10V7.8a4 4 0 0 1 8 0V10"/><path d="M12 14.2v2.2"/></svg><span class="ci-txt">Cifrado<small class="ci-sub">Los mensajes están cifrados de extremo a extremo. Haz clic para verificarlo.</small></span></button>
+              </div>
+              <div class="ci-label" id="ciGroupLabel">1 grupo en común</div>
+              <div class="ci-card ci-list" id="ciGroupCard"><div id="ciGroupList"></div></div>
+              <div class="ci-card ci-list">
+                <button class="ci-item" id="ciAddListBtn"><svg class="ic" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg><span class="ci-txt">Añadir a la lista</span></button>
+                <button class="ci-item" id="ciExportBtn"><svg class="ic" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7.5 11 4.5 4.5L16.5 11"/><path d="M4.5 20.5h15"/></svg><span class="ci-txt">Exportar chat</span></button>
+              </div>
+              <div class="ci-card ci-list">
+                <button class="ci-item danger" id="ciClearBtn"><svg class="ic" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9.5 7V5a1.5 1.5 0 0 1 1.5-1.5h2A1.5 1.5 0 0 1 14.5 5v2M6.5 7l1 13a1.8 1.8 0 0 0 1.8 1.7h5.4a1.8 1.8 0 0 0 1.8-1.7l1-13"/></svg><span class="ci-txt">Vaciar chat</span></button>
+                <button class="ci-item danger" id="ciBlockBtn"><svg class="ic" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="m6.2 6.2 11.6 11.6"/></svg><span class="ci-txt" id="ciBlockLbl">Bloquear</span></button>
+                <button class="ci-item danger" id="ciReportBtn"><svg class="ic" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 20V4"/><path d="M5 5.5h12.5l-2.5 4 2.5 4H5"/></svg><span class="ci-txt" id="ciReportLbl">Reportar</span></button>
+              </div>
+              <div class="ci-card ci-list">
+                <button class="ci-item danger ci-strong" id="ciDeleteBtn"><svg class="ic" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9.5 7V5a1.5 1.5 0 0 1 1.5-1.5h2A1.5 1.5 0 0 1 14.5 5v2M6.5 7l1 13a1.8 1.8 0 0 0 1.8 1.7h5.4a1.8 1.8 0 0 0 1.8-1.7l1-13"/><path d="m10 11 4 4M14 11l-4 4"/></svg><span class="ci-txt">Eliminar chat</span></button>
+              </div>
+              <div style="height:14px"></div>
+            </div>
+          </div>
+
+          <!-- ============ OVERLAY: VISOR DE HISTORIAS ============ -->
+          <div class="story-viewer" id="storyViewer" role="dialog" aria-label="Historia">
+            <div class="story-progress" id="storyProgress"></div>
+            <div class="story-head">
+              <div class="avatar" id="storyAvatar">M</div>
+              <div><b id="storyName">Mi estado</b><span id="storyTime"></span></div>
+              <button class="story-x" id="downloadStory" aria-label="Descargar estado"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13"/><path d="m7.5 12.5 4.5 4.5 4.5-4.5"/><path d="M4.5 20.5h15"/></svg></button>
+              <button class="story-x" id="closeStory" aria-label="Cerrar"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+            </div>
+            <button class="story-tap prev" id="storyPrev" aria-label="Anterior"></button>
+            <button class="story-tap next" id="storyNext" aria-label="Siguiente"></button>
+            <div class="story-body">
+              <div class="story-emoji" id="storyEmoji">🌸</div>
+              <div class="story-text" id="storyText">Feliz domingo a todos</div>
+            </div>
+            <div class="story-next-hint"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></div>
+            <div class="story-comments" id="storyComments" aria-hidden="true"></div>
+            <div class="story-foot">
+              <input class="story-reply" id="storyReply" type="text" placeholder="Comenta algo…" autocomplete="off" maxlength="140">
+              <button class="story-round" id="storyHeart" aria-label="Me gusta"><svg width="19" height="19" viewBox="0 0 24 24" fill="#fff"><path d="M12 20.3 4.8 13a5.1 5.1 0 0 1 0-7.3 5 5 0 0 1 7.1 0l.1.1.1-.1a5 5 0 0 1 7.1 0 5.1 5.1 0 0 1 0 7.3L12 20.3Z"/></svg></button>
+              <button class="story-round" id="storySend" aria-label="Enviar"><svg width="19" height="19" viewBox="0 0 24 24" fill="#fff"><path d="M3.7 11.2 20 3.4c.8-.35 1.55.7 1.15 1.4l-6.6 15.6c-.42 1-1.86 1-2.24.02l-2.5-6.4a.8.8 0 0 0-.5-.5l-6-2.1c-.98-.33-.92-1.68.1-1.97Z"/></svg></button>
+            </div>
+          </div>
+
+          <!-- ============ OVERLAY: EN VIVO ============ -->
+          <div class="live-screen" id="liveScreen" role="dialog" aria-label="Transmisión en vivo">
+            <video class="live-video" id="liveVideo" autoplay playsinline muted></video>
+            <div class="live-top">
+              <span class="live-badge"><span class="live-dot" style="background:#fff"></span>EN VIVO</span>
+              <span class="live-viewers"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6.5 10-6.5S22 12 22 12s-3.5 6.5-10 6.5S2 12 2 12Z"/><circle cx="12" cy="12" r="3.2"/></svg><span id="liveViewers">1</span></span>
+              <span class="live-timer" id="liveTimer">00:00</span>
+              <div style="flex:1"></div>
+              <button class="story-x" id="closeLive" aria-label="Salir del en vivo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+            </div>
+            <div class="live-host">
+              <div class="avatar" id="liveHostAvatar">TÚ</div>
+              <div><b id="liveHostName">Tú</b><span id="liveHostMeta">En vivo</span></div>
+            </div>
+            <div class="live-center">
+              <div class="live-flower">🌸</div>
+              <div class="big-text" id="liveBigText">¡Estoy en vivo!</div>
+            </div>
+            <div class="live-comments" id="liveComments"></div>
+            <div class="live-foot">
+              <input class="live-input" id="liveInput" type="text" placeholder="Comenta algo…" autocomplete="off" maxlength="120">
+              <button class="live-action live-heart-btn" id="liveHeartBtn" aria-label="Me encanta">❤️</button>
+              <button class="live-action live-heart-btn" id="liveRoseBtn" aria-label="Enviar rosa">🌹</button>
+              <button class="live-action live-send" id="liveSendBtn" aria-label="Enviar comentario"><svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M3.7 11.2 20 3.4c.8-.35 1.55.7 1.15 1.4l-6.6 15.6c-.42 1-1.86 1-2.24.02l-2.5-6.4a.8.8 0 0 0-.5-.5l-6-2.1c-.98-.33-.92-1.68.1-1.97Z"/></svg></button>
+            </div>
+          </div>
+
+          <!-- ============ OVERLAY: CREADOR (Foto / Video / En vivo) ============ -->
+          <div class="creator" id="creatorOverlay" role="dialog" aria-label="Crear">
+            <div class="creator-stage" id="creatorStage">
+              <div class="creator-scene-bg" id="creatorSceneBg"></div>
+              <div class="creator-scene-emoji" id="creatorSceneEmoji">🎬</div>
+              <div class="creator-fx-overlay" id="creatorFxOverlay"></div>
+            </div>
+            <canvas id="arCanvas" class="ar-canvas" hidden></canvas>
+            <div class="creator-screen-glow" id="creatorScreenGlow"></div>
+            <div class="creator-stickers" id="creatorStickers"></div>
+            <canvas class="creator-draw" id="creatorDrawCanvas"></canvas>
+            <button class="creator-draw-clear" id="creatorDrawClear" hidden>✕ Borrar trazo</button>
+            <div class="creator-rail" id="creatorRail" aria-label="Herramientas en vivo">
+              <button class="rail-btn" id="railFlash" aria-label="Flash"><span class="rail-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2 4.5 13.5h5L9.5 22l8.5-11.5h-5L13 2Z"/></svg></span><span class="rail-lb">Flash</span></button>
+              <button class="rail-btn" id="railLen" aria-label="Duración del video"><span class="rail-ic"><b class="rail-num" id="railLenNum">60s</b></span><span class="rail-lb">Durac.</span></button>
+              <button class="rail-btn" id="railFilters" aria-label="Filtros"><span class="rail-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h9M19 7h1M4 12h3M13 12h7M4 17h13"/><circle cx="16.5" cy="7" r="1.6"/><circle cx="10" cy="12" r="1.6"/><circle cx="20" cy="17" r="1.6"/></svg></span><span class="rail-lb">Filtros</span></button>
+              <button class="rail-btn" id="railBeauty" aria-label="Belleza"><span class="rail-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6L18.5 9l-4.6 1.5L12 15l-1.9-4.5L5.5 9l4.6-1.4L12 3Z"/><path d="M19 14l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8.8-2Z"/></svg></span><span class="rail-lb">Belleza</span></button>
+              <button class="rail-btn" id="railBeat" aria-label="Ritmo"><span class="rail-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 10v4M9.5 6.5v11M14 9.5v5M18.5 4.5v15"/></svg></span><span class="rail-lb">Ritmo</span></button>
+              <button class="rail-btn rail-more-toggle" id="railMoreToggle" aria-label="Más herramientas" aria-expanded="false"><span class="rail-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span><span class="rail-lb">Más</span></button>
+            </div>
+            <div class="rail-more-pop" id="railMorePop" hidden role="menu" aria-label="Post-producción">
+              <button class="rail-more-item" id="railSticker" role="menuitem"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 10h.01M15 10h.01M8.8 14.5a4.2 4.2 0 0 0 6.4 0"/></svg><span>Pegatina</span></button>
+              <button class="rail-more-item" id="railText" role="menuitem"><b class="rail-aa">Aa</b><span>Texto</span></button>
+              <button class="rail-more-item" id="railDraw" role="menuitem"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1-4L15.5 5.5a2.1 2.1 0 0 1 3 3L8 19l-4 1Z"/><path d="m13.5 7.5 3 3"/></svg><span>Dibujar</span></button>
+            </div>
+            <div class="creator-top">
+              <button class="creator-ic" id="creatorClose" aria-label="Cerrar"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+              <div class="sound-pill" id="soundPill"><svg width="13" height="13" viewBox="0 0 24 24" fill="#fff"><path d="M9 18.5a3 3 0 1 1-2-2.83V5l11-2.4v13a3 3 0 1 1-2-2.83V7L9 9v9.5Z"/></svg><span class="marquee"><span class="marquee-inner">Cumbia Buena · Kiko &amp; La Vega&#160;&#160;✦&#160;&#160;Cumbia Buena · Kiko &amp; La Vega&#160;&#160;✦&#160;&#160;</span></span><button id="soundPillClose" aria-label="Quitar música"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+              <b id="creatorTitle" style="display:none">Crear</b>
+              <button class="creator-ic" id="creatorFlipBtn" aria-label="Voltear cámara"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16M3 21v-5h5"/></svg></button>
+            </div>
+            <div class="rec-hud" id="recHud" style="display:none"><span class="rec-dot"></span><span id="recHudTime">00:00</span></div>
+
+            <!-- Panel En vivo -->
+            <div class="creator-live" id="creatorLivePanel" hidden>
+              <div class="live-rings"><i></i><i></i><div class="avatar" style="background:#0da271">TÚ</div></div>
+              <b style="font-size:16px">Tú</b>
+              <span style="font-size:12px;color:rgba(255,255,255,.6)">Tu cámara real · solo tú ves la transmisión</span>
+              <input class="live-title-input" id="liveTitleInput" type="text" maxlength="60" placeholder="Ponle título a tu en vivo… ej.: ¡Cocinando mangú! 🫕" autocomplete="off">
+              <button class="live-start" id="liveStartBtn">● Iniciar transmisión</button>
+            </div>
+
+            <input type="file" id="creatorUploadInput" accept="image/*,video/*" hidden>
+
+            <textarea id="creatorTextBox" class="creator-textbox" maxlength="90" rows="4" placeholder="Escribe algo…" autocomplete="off"></textarea>
+            <div class="creator-zoom" id="creatorZoom" aria-label="Zoom"><button type="button" data-zoom="0.5">.5</button><button type="button" data-zoom="1" class="on">1x</button><button type="button" data-zoom="2">2x</button><button type="button" data-zoom="3">3x</button></div>
+            <!-- Obturador con accesorios -->
+            <div class="creator-shutter-row video" id="creatorShutterRow">
+              <button class="side-action" id="effectsBtn" aria-label="Efectos"><span class="fx-thumb" id="fxThumbBtn">🌊</span><span>Efectos</span></button>
+              <button class="shutter" id="creatorShutter" aria-label="Capturar"><i></i></button>
+              <button class="side-action" id="uploadSideBtn" aria-label="Subir"><span class="upload-thumb" id="uploadThumbBtn"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="15" rx="2.5"/><circle cx="9" cy="10" r="1.5"/><path d="m5 17 4.8-4.8 3.7 3.7"/><path d="m13 13.5 2.8-2.8L20 14.5"/></svg></span><span>Subir</span></button>
+            </div>
+
+            <!-- Pestañas de modo -->
+            <div class="creator-tabs" id="creatorTabs">
+              <button class="creator-tab" data-cmode="foto"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-2.5h6L17 8h3a1.5 1.5 0 0 1 1.5 1.5V18a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 18V9.5A1.5 1.5 0 0 1 4 8Z"/><circle cx="12" cy="13.5" r="3.6"/></svg>FOTO</button>
+              <button class="creator-tab active" data-cmode="video"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6.5" width="13" height="11" rx="2.5"/><path d="m15.5 10.7 6-3.7v10l-6-3.7"/></svg>VIDEO</button>
+              <button class="creator-tab" data-cmode="text"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 19 10 5.5h1.8L17.3 19M6.7 14h8.8"/></svg>TEXTO</button>
+              <button class="creator-tab" data-cmode="live"><span class="live-dot"></span>EN VIVO</button>
+            </div>
+            <div class="creator-flash" id="creatorFlash"></div>
+
+            <!-- Efectos (panel a pantalla completa) -->
+            <div class="fx-browser" id="fxBrowser" role="dialog" aria-label="Efectos">
+              <div class="fx-top">
+                <button class="creator-ic" id="fxClose" aria-label="Cerrar efectos"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+                <div class="fx-current"><span class="fx-mini" id="fxCurrentThumb">🚫</span><b id="fxCurrentName">Normal</b></div>
+                <button class="creator-ic" id="fxFlip" aria-label="Voltear"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16M3 21v-5h5"/></svg></button>
+              </div>
+              <div class="fx-tools">
+                <button class="fx-tool" id="fxNoneBtn" aria-label="Sin efecto"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M5.5 5.5l13 13"/></svg></button>
+                <button class="fx-searchpill" id="fxSearchBtn"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20.5 20.5-4.3-4.3"/></svg>Buscar</button>
+                <button class="fx-tool" id="fxFavFilterBtn" aria-label="Favoritos"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"><path d="M6.5 3.5h11V21L12 17.3 6.5 21V3.5Z"/></svg></button>
+              </div>
+              <button class="fx-arbar" id="arOpenBtn"><span class="fx-arspark">✨</span><span>Lentes AR · Snap Camera Kit</span><span class="fx-arbeta">BETA</span></button>
+              <div class="fx-tabs" id="fxTabs">
+                <button class="fx-tab active" data-fxtab="trending">Tendencias</button>
+                <button class="fx-tab" data-fxtab="new">Nuevos</button>
+                <button class="fx-tab" data-fxtab="fav">Favoritos</button>
+              </div>
+              <div class="fx-grid" id="fxGrid"></div>
+            </div>
+
+            <!-- Panel Filtros (color) -->
+            <div class="fx-browser" id="filterBrowser" role="dialog" aria-label="Filtros">
+              <div class="fx-top">
+                <button class="creator-ic" id="ftClose" aria-label="Cerrar filtros"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+                <div class="fx-current"><span class="fx-mini" id="ftCurrentThumb">🎨</span><b id="ftCurrentName">Original</b><small class="ft-tag">SOLO COLOR</small></div>
+                <button class="creator-ic" id="ftReset" aria-label="Restablecer intensidad"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 2.6-6.3L3 8"/><path d="M3 3v5h5"/></svg></button>
+              </div>
+              <div class="fx-tools">
+                <button class="fx-tool" id="ftNoneBtn" aria-label="Sin filtro"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M6 6l12 12"/></svg></button>
+                <div class="ft-sliderpill"><span class="ft-slider-ic">Intensidad</span><input type="range" class="ft-slider" id="ftIntensity" min="0" max="100" value="80" aria-label="Intensidad del filtro"><span class="ft-val" id="ftIntensityVal">80%</span></div>
+              </div>
+              <div class="fx-tabs" id="ftTabs">
+                <button class="fx-tab active" data-fttab="para-ti">Para ti</button>
+                <button class="fx-tab" data-fttab="retrato">Retrato</button>
+                <button class="fx-tab" data-fttab="comida">Comida</button>
+                <button class="fx-tab" data-fttab="viaje">Viaje</button>
+                <button class="fx-tab" data-fttab="retro">Retro</button>
+                <button class="fx-tab" data-fttab="bn">B/N</button>
+              </div>
+              <div class="fx-grid" id="ftGrid"></div>
+            </div>
+
+            <!-- Lentes AR (Snap Camera Kit Web) -->
+            <div class="fx-browser ar-sheet" id="arSheet" role="dialog" aria-label="Lentes AR de Snap">
+              <div class="fx-top">
+                <button class="creator-ic" id="arClose" aria-label="Cerrar"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+                <div class="fx-current"><span class="fx-mini ar-badge">✨</span><span><b>Lentes AR</b><small class="ft-tag">SNAP · BETA</small></span></div>
+                <button class="creator-ic" id="arForget" aria-label="Borrar credenciales guardadas"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9 7V5a1.5 1.5 0 0 1 1.5-1.5h3A1.5 1.5 0 0 1 15 5v2M6.5 7l1 13a1.8 1.8 0 0 0 1.8 1.7h5.4a1.8 1.8 0 0 0 1.8-1.7l1-13"/></svg></button>
+              </div>
+              <div class="ar-body">
+                <ol class="ar-steps">
+                  <li><b>1.</b> Crea tu app en el <b>Camera Kit Portal</b> (ar.snap.com/camera-kit) y copia tu <b>API Token</b>.</li>
+                  <li><b>2.</b> En <b>Lens Studio 5.4+</b>, crea o importa un lente y envíalo a Camera Kit.</li>
+                  <li><b>3.</b> Copia el <b>Lens Group ID</b> del grupo publicado (y el Lens ID si quieres uno exacto).</li>
+                  <li><b>4.</b> Pega todo aquí, pulsa <b>«Probar cámara AR»</b> y permite la cámara. Requiere <b>internet</b> y Caribe abierto vía https.</li>
+                </ol>
+                <label class="ar-label" for="arToken">API Token</label>
+                <input class="ar-input" id="arToken" type="password" placeholder="Token del Camera Kit Portal" autocomplete="off" spellcheck="false">
+                <label class="ar-label" for="arGroup">Lens Group ID</label>
+                <input class="ar-input" id="arGroup" type="text" placeholder="Ej.: 6f2a1c…" autocomplete="off" spellcheck="false">
+                <label class="ar-label" for="arLensId">Lens ID <span class="ar-dim">— opcional (vacío = primer lente del grupo)</span></label>
+                <input class="ar-input" id="arLensId" type="text" placeholder="Lens ID exacto (opcional)" autocomplete="off" spellcheck="false">
+                <div class="ar-status" id="arStatus">⚪ Sin configurar — pega tus credenciales y prueba la cámara.</div>
+                <div class="ar-actions">
+                  <button class="ar-btn primary" id="arStartBtn">📷 Probar cámara AR</button>
+                  <button class="ar-btn ghost" id="arStopBtn" hidden>■ Detener AR</button>
+                </div>
+                <p class="ar-note">🔒 Tus credenciales se guardan solo en este dispositivo (localStorage). El AR necesita internet y permiso de cámara; sin conexión, los efectos normales de la app siguen funcionando igual.</p>
+              </div>
+            </div>
+
+            <!-- Paso 2: detalles -->            <!-- Paso 2: detalles -->
+            <div class="creator-details" id="creatorDetails">
+              <div class="creator-details-top">
+                <button class="creator-ic" id="creatorBackBtn" aria-label="Volver"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+                <b id="creatorDetailsTitle">Publicar tu Vibra</b>
+                <div class="creator-preview" id="creatorPreview">🎬</div>
+              </div>
+              <div class="creator-caption-wrap">
+                <textarea id="vibraUpCaption" class="creator-caption" maxlength="150" rows="2" placeholder="Describe tu video… ej.: Probando mis bizcochos nuevos 🎂"></textarea>
+                <div class="caption-chips" id="captionChips">
+                  <button data-tag="#MiBarrio">#MiBarrio</button><button data-tag="#VibraRD">#VibraRD</button><button data-tag="#LaVega">#LaVega</button><button data-tag="#HechoEnRD">#HechoEnRD</button>
+                </div>
+              </div>
+              <button class="creator-sellrow" id="vibraSellToggle" type="button" aria-pressed="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffd166" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l1.2 13a1.8 1.8 0 0 1-1.8 2H6.6A1.8 1.8 0 0 1 4.8 20L6 7Z"/><path d="M9 10.5V6.8a3 3 0 0 1 6 0v3.7"/></svg>
+                <span><b>Vender algo en este video</b><small>La gente te habla y compra directo desde el video</small></span>
+                <span class="switch on" id="vibraSellSwitch" role="switch" aria-checked="true"></span>
+              </button>
+              <div id="vibraSellFields" class="creator-sellfields">
+                <input id="vibraUpProduct" class="creator-input" type="text" placeholder="¿Qué vendes? Ej.: Bizcocho de 2 libras" autocomplete="off" maxlength="70">
+                <div class="creator-field-row">
+                  <div class="price-wrap dark"><span>RD$</span><input id="vibraUpPrice" type="number" min="0" placeholder="1,300"></div>
+                  <select id="vibraUpEmoji" class="creator-select"><option>🛍️</option><option>🎂</option><option>🍗</option><option>🫕</option><option>💅</option><option>👟</option><option>📱</option><option>👕</option><option>🐋</option><option>🎭</option></select>
+                </div>
+              </div>
+              <div style="flex:1"></div>
+              <button class="creator-publish" id="publishVibraBtn">🎬 Publicar Vibra</button>
+            </div>
+          </div>
+
+          <!-- Perfil tipo TikTok/IG: página completa -->
+          <div class="profile-overlay" id="profileOverlay" role="dialog" aria-label="Perfil">
+            <div class="pf-top">
+              <button class="creator-ic" id="profileClose" aria-label="Cerrar" style="background:var(--line);color:var(--ink)"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+              <b id="pfTopTitle">Mi perfil</b>
+              <button class="pf-share" id="pfMenuBtn" aria-label="Configuración y actividad" hidden><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+              <button class="pf-share" id="pfShare" aria-label="Compartir perfil" hidden><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M8 6.5 12 2.5l4 4"/><path d="M6 11H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-1"/></svg></button>
+            </div>
+            <div class="pf-scroll">
+              <div class="pf-headrow">
+                <button class="pf-avatar" id="pfAvatarBtn" aria-label="Foto de perfil"><span class="pf-avatar-inner" id="pfAvatarInner">T</span><span class="pf-avatar-plus" id="pfAvatarPlus"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M12 5.5v13M5.5 12h13"/></svg></span></button>
+                <div class="pf-stats">
+                  <button class="pf-stat" id="pfPostsBtn" aria-label="Ver publicaciones"><b id="pfPosts">0</b><span>publicaciones</span></button>
+                  <button class="pf-stat" id="pfFollowersBtn" aria-label="Seguidores"><b id="pfFollowers">0</b><span>seguidores</span></button>
+                  <button class="pf-stat" id="pfFollowingBtn" aria-label="Seguidos"><b id="pfFollowing">0</b><span>seguidos</span></button>
+                </div>
+              </div>
+              <div class="pf-idblock">
+                <div class="pf-name"><span id="pfName">Tú</span><span id="pfVerified"></span><span class="pf-lock" id="pfLock" hidden title="Cuenta privada">🔒</span></div>
+                <div class="pf-handle" id="pfHandle">@caribe</div>
+                <div class="pf-cat" id="pfCat" hidden></div>
+                <div class="pf-bio" id="pfBio" hidden></div>
+                <button class="pf-bio-btn" id="pfBioEditBtn" hidden>+ Añade descrip.</button>
+                <button class="pf-link" id="pfLink" hidden><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a5 5 0 0 0 7.1 0l3-3a5 5 0 0 0-7.1-7.1l-1.7 1.7"/><path d="M14 10a5 5 0 0 0-7.1 0l-3 3a5 5 0 0 0 7.1 7.1l1.7-1.7"/></svg><span id="pfLinkText">Caribe</span></button>
+                <div class="pf-loc" id="pfLoc">📍 La Vega, República Dominicana · 📅 Se unió en 2022</div>
+                <div class="pf-seguido" id="pfSeguido" hidden></div>
+              </div>
+              <div class="pf-actions" id="pfActionsMe">
+                <button class="pf-btn-primary" id="pfEditBtn">Editar perfil</button>
+                <button class="pf-btn-ghost" id="pfShareBtn">Compartir</button>
+              </div>
+              <div class="pf-actions" id="pfActionsOther" hidden>
+                <button class="pf-btn-primary" id="pfFollowBtn">Seguir</button>
+                <button class="pf-btn-ghost" id="pfMsgBtn">Mensaje</button>
+              </div>
+              <div class="pf-suggest" id="pfSuggestWrap">
+                <div class="pf-suggest-head"><b>Descubre personas</b></div>
+                <div class="pf-suggest-row" id="pfSuggestRow"></div>
+              </div>
+              <div class="pf-tabs" id="pfTabs" role="tablist">
+                <button class="pf-tab active" data-pftab="posts" role="tab" aria-label="Publicaciones"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><rect x="3" y="3" width="7.5" height="7.5" rx="1"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1"/></svg></button>
+                <button class="pf-tab" data-pftab="saved" role="tab" aria-label="Guardados"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3.5h11V21L12 17.3 6.5 21V3.5Z"/></svg></button>
+                <button class="pf-tab" data-pftab="liked" role="tab" aria-label="Me gusta"><svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor"><path d="M12 20.7 4.5 13.3a5.35 5.35 0 0 1 0-7.6 5.3 5.3 0 0 1 7.5 0l.0.1.0-.1a5.3 5.3 0 0 1 7.5 0 5.35 5.35 0 0 1 0 7.6L12 20.7Z"/></svg></button>
+              </div>
+              <div class="pf-grid" id="pfGrid"></div>
+              <div class="pf-empty" id="pfEmpty" hidden></div>
+            </div>
+          </div>
+
+          <!-- Editar perfil -->
+          <div class="sheet" id="sheetEditProfile" role="dialog" aria-label="Editar perfil">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Editar perfil</h3><button class="sheet-close" data-close-sheet aria-label="Cerrar"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <div class="pf-edit-photo">
+                <div class="pf-edit-av" id="pfEditAvatar">T</div>
+                <button class="btn btn-ghost" id="pfEditPhotoBtn" style="flex:1">📷 Cambiar foto</button>
+              </div>
+              <div class="field" style="margin-bottom:10px"><input id="pfEditName" maxlength="40" placeholder="Nombre" autocomplete="off" autocapitalize="words"></div>
+              <div class="field" style="margin-bottom:10px"><input id="pfEditHandle" maxlength="24" placeholder="@usuario" autocomplete="off" spellcheck="false" autocapitalize="none"></div>
+              <div class="field" style="margin-bottom:10px"><input id="pfEditCat" maxlength="42" placeholder="Categoría — ej.: 🎭 Creador de Vibra" autocomplete="off"></div>
+              <div class="field"><textarea id="pfEditBio" rows="2" maxlength="80" placeholder="Descripción — quién eres, qué haces…"></textarea></div>
+              <button class="btn btn-accent btn-block" id="pfEditSave" style="margin-top:10px">Guardar cambios</button>
+            </div>
+          </div>
+          <input type="file" id="mePhotoInput" accept="image/*" hidden>
+
+          <!-- Cámara en vivo (getUserMedia) — enviar foto al chat -->
+          <div class="camera-overlay" id="cameraOverlay" role="dialog" aria-label="Cámara">
+            <video class="camera-video" id="cameraVideo" playsinline autoplay muted></video>
+            <img class="camera-shot" id="cameraShot" alt="Foto capturada" hidden>
+            <div class="camera-top">
+              <button class="creator-ic" id="cameraClose" aria-label="Cerrar cámara"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+            </div>
+            <div class="camera-bottom" id="cameraLiveUi">
+              <button class="camera-flip" id="cameraFlip" aria-label="Voltear cámara"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16M3 21v-5h5"/></svg></button>
+              <button class="shutter" id="cameraShutter" aria-label="Tirar foto"><i></i></button>
+              <div class="camera-spacer"></div>
+            </div>
+            <div class="camera-bottom" id="cameraEditUi" hidden>
+              <button class="camera-retake" id="cameraRetake">↺ Repetir</button>
+              <button class="camera-send" id="cameraSend">➤ Enviar</button>
+            </div>
+          </div>
+
+          <!-- ============ OVERLAY: LLAMADA ============ -->
+          <div class="call-screen" id="callScreen" role="dialog" aria-label="Llamada">
+            <div class="call-secure">Caribe · llamadas entre personas de Caribe</div>
+            <div class="self-pip" id="selfPip" style="display:none">🤳</div>
+            <div class="call-avatar" id="callAvatar">C</div>
+            <div class="call-name" id="callName">Caribe</div>
+            <div class="call-status" id="callStatus">llamando…</div>
+
+            <div class="call-spacer"></div>
+
+            <div id="outgoingUI" style="display:flex;flex-direction:column;align-items:center">
+              <div class="call-controls">
+                <button class="cc-btn" id="ccMute"><span class="cc-circle"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2.5" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0M12 18v3.5"/><path d="M4 4l16 16" stroke-width="2"/></svg></span>Silencio</button>
+                <button class="cc-btn" id="ccKeypad"><span class="cc-circle"><svg width="23" height="23" viewBox="0 0 24 24" fill="currentColor"><circle cx="6.5" cy="6.5" r="1.6"/><circle cx="12" cy="6.5" r="1.6"/><circle cx="17.5" cy="6.5" r="1.6"/><circle cx="6.5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="17.5" cy="12" r="1.6"/><circle cx="6.5" cy="17.5" r="1.6"/><circle cx="12" cy="17.5" r="1.6"/><circle cx="17.5" cy="17.5" r="1.6"/></svg></span>Teclado</button>
+                <button class="cc-btn" id="ccSpeaker"><span class="cc-circle"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6.5 9H3v6h3.5L11 19V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.4 6a9 9 0 0 1 0 12"/></svg></span>Altavoz</button>
+                <button class="cc-btn" id="ccAdd"><span class="cc-circle"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="8" r="3.6"/><path d="M3.5 20a6.5 6.5 0 0 1 13 0M18.5 8v6M15.5 11h6"/></svg></span>Agregar</button>
+                <button class="cc-btn" id="ccSwitchVideo"><span class="cc-circle"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6.5" width="13" height="11" rx="2.5"/><path d="m15.5 10.7 5.2-3.2v9l-5.2-3.2"/></svg></span>Video</button>
+                <button class="cc-btn" id="ccContacts"><span class="cc-circle"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6Z"/><path d="M9 9.5h6M9 13h6M9 16.5h3"/></svg></span>Contactos</button>
+              </div>
+              <button class="end-call" id="endCallBtn" aria-label="Terminar llamada"><svg width="30" height="30" viewBox="0 0 24 24" fill="#fff" style="transform:rotate(135deg)"><path d="M5.5 3.5h3.6l1.7 4.6-2.3 1.7a13 13 0 0 0 6.7 6.7l1.7-2.3 4.6 1.7v3.6a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 3.5 5.7a2 2 0 0 1 2-2.2Z"/></svg></button>
+            </div>
+
+            <div id="incomingUI" style="display:none;flex-direction:column;align-items:center">
+              <div class="incoming-actions">
+                <button class="incoming-btn" id="declineCallBtn"><span class="incoming-circle decline"><svg width="28" height="28" viewBox="0 0 24 24" fill="#fff" style="transform:rotate(135deg)"><path d="M5.5 3.5h3.6l1.7 4.6-2.3 1.7a13 13 0 0 0 6.7 6.7l1.7-2.3 4.6 1.7v3.6a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 3.5 5.7a2 2 0 0 1 2-2.2Z"/></svg></span>Rechazar</button>
+                <button class="incoming-btn" id="acceptCallBtn"><span class="incoming-circle accept"><svg width="28" height="28" viewBox="0 0 24 24" fill="#fff"><path d="M5.5 3.5h3.6l1.7 4.6-2.3 1.7a13 13 0 0 0 6.7 6.7l1.7-2.3 4.6 1.7v3.6a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 3.5 5.7a2 2 0 0 1 2-2.2Z"/></svg></span>Contestar</button>
+              </div>
+            </div>
+
+            <div class="keypad" id="keypad">
+              <div class="keypad-display" id="keypadDisplay">&nbsp;</div>
+              <div class="keypad-grid" id="keypadGrid"></div>
+              <button class="keypad-hide" id="hideKeypad">Ocultar teclado</button>
+            </div>
+          </div>
+
+          <!-- ============ BACKDROP + SHEETS ============ -->
+          <div class="sheet-backdrop" id="sheetBackdrop"></div>
+
+          <div class="sheet" id="sheetSettings" role="dialog" aria-label="Ajustes">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Ajustes</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <div class="settings-profile">
+                <div class="avatar">T</div>
+                <div><b>Tú</b><span>@caribe · Caribe ID</span></div>
+              </div>
+              <div class="set-label">Preferencias</div>
+              <button class="set-row" id="setDarkRow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg><span>Modo oscuro<small>Relájate la vista de noche</small></span><span class="switch" id="setDarkSwitch" role="switch" aria-checked="false"></span></button>
+              <button class="set-row" id="setSoundsRow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6.5 9H3v6h3.5L11 19V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.4 6a9 9 0 0 1 0 12"/></svg><span>Sonidos<small>Tonos y notificaciones</small></span><span class="switch on" id="setSoundsSwitch" role="switch" aria-checked="true"></span></button>
+              <button class="set-row" id="setNotifsRow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0"/></svg><span>Notificaciones<small>Mensajes, llamadas y en vivo</small></span><span class="switch on" id="setNotifsSwitch" role="switch" aria-checked="true"></span></button>
+              <button class="set-row" id="setEnterRow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M6.5 9.5h.01M10.5 9.5h.01M14.5 9.5h.01M18 13h-9M6.5 13h.01"/></svg><span>Enter para enviar<small>Envía con la tecla Enter en el chat</small></span><span class="switch" id="setEnterSwitch" role="switch" aria-checked="false"></span></button>
+              <div class="set-label">Cuenta</div>
+              <button class="set-row" data-soon="Caribe Premium ✨ — próximamente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 12L2 9l4-6Z"/><path d="M2 9h20M9.5 3 8 9l4 12M14.5 3 16 9l-4 12"/></svg><span>Suscripciones<small>Caribe Premium y beneficios</small></span><svg class="set-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
+              <button class="set-row" id="setDevicesRow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="13" height="10" rx="1.6"/><path d="M7 19h6M10 15v4M17.5 9h3A1.5 1.5 0 0 1 22 10.5v5a1.5 1.5 0 0 1-1.5 1.5h-3"/></svg><span>Dispositivos vinculados<small>Usa Caribe en la web y hasta 4 equipos</small></span><svg class="set-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
+              <button class="set-row" data-soon="Cuenta de Caribe ID — próximamente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20a7.5 7.5 0 0 1 15 0"/></svg><span>Cuenta de Caribe ID<small>Seguridad, número y correo</small></span><svg class="set-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
+              <button class="set-row" data-soon="Privacidad — próximamente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6.5v5c0 4.6 3.2 8.9 7.5 10 4.3-1.1 7.5-5.4 7.5-10v-5L12 3Z"/><path d="m9.5 12 2 2 3.5-3.5"/></svg><span>Privacidad y seguridad<small>Última vez, bloqueos y clave</small></span><svg class="set-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
+              <div class="set-label">Comunidad</div>
+              <button class="set-row" id="setListsRow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11v3a1.5 1.5 0 0 0 1.5 1.5H7l5 4V7.5l-5 4H4.5A1.5 1.5 0 0 0 3 13Z"/><path d="M16 9.5a4 4 0 0 1 0 6M18.7 7a8 8 0 0 1 0 10"/></svg><span>Listas de difusión<small>Envía un mensaje a mucha gente a la vez</small></span><svg class="set-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
+              <button class="set-row" data-soon="Eventos — próximamente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M8 3v4M16 3v4M3 10h18"/></svg><span>Eventos<small>Organiza cumpleaños, partiditos y reuniones</small></span><svg class="set-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
+              <div class="set-label">General</div>
+              <button class="set-row" data-soon="Chats — historial y copias, próximamente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-8 8H4l2-3.2A8 8 0 1 1 21 12Z"/></svg><span>Chats<small>Historial de chat, copia de seguridad</small></span><svg class="set-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
+              <button class="set-row" data-soon="Apariencia — próximamente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18M12 7.5h.01M12 12h.01M12 16.5h.01"/></svg><span>Apariencia<small>Estilo del chat, ícono de la aplicación</small></span><svg class="set-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
+              <button class="set-row" data-soon="Almacenamiento y datos — próximamente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg><span>Almacenamiento y datos<small>Uso de red, descarga automática</small></span><svg class="set-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
+              <button class="set-row" data-soon="Controles parentales — próximamente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6.5v5c0 4.6 3.2 8.9 7.5 10 4.3-1.1 7.5-5.4 7.5-10v-5L12 3Z"/><circle cx="12" cy="11" r="2.2"/></svg><span>Controles parentales<small>Ajustes para tu familia</small></span><svg class="set-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
+              <button class="set-row" data-soon="Accesibilidad — próximamente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="6" r="2"/><path d="M5 10.5c4.5 1.6 9.5 1.6 14 0M12 12.5V17M9 21l3-4 3 4"/></svg><span>Accesibilidad<small>Aumentar contraste, animación</small></span><svg class="set-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
+              <button class="set-row" data-soon="Idioma — próximamente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg><span>Idioma de la aplicación<small>Español (idioma del dispositivo)</small></span><svg class="set-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
+              <div class="set-label">Soporte</div>
+              <button class="set-row" data-soon="Ayuda y feedback — ¡gracias por apoyar a Caribe! 💚"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.3 9.2a2.8 2.8 0 0 1 5.4 1c0 1.8-2.7 2.2-2.7 3.6M12 17h.01"/></svg><span>Ayuda y feedback<small>Preguntas, reportar problemas</small></span><svg class="set-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
+              <div class="set-foot">Caribe v2.4.1 · Hecho en la RD 🇩🇴<br>Tus chats se guardan en tu cuenta de este servidor</div>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetNewGroup" role="dialog" aria-label="Nuevo grupo">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3 id="newGroupTitle">Nuevo grupo</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <div class="field"><input id="newGroupName" type="text" maxlength="48" placeholder="Nombre del grupo o comunidad…" autocomplete="off"></div>
+              <div class="emoji-pick" id="newGroupEmoji" style="margin:2px 0 12px"></div>
+              <div class="field" id="communityDescWrap" hidden><textarea id="communityDesc" rows="2" maxlength="140" placeholder="¿De qué es esta comunidad? ej.: El grupo de los del barrio 🏘"></textarea></div>
+              <div class="priv-except-label" style="padding:0 2px 6px">Añadir miembros</div>
+              <div id="groupMemberList"></div>
+              <button class="btn btn-accent btn-block" id="createGroupBtn" style="margin-top:12px">Crear grupo 🎉</button>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetBroadcasts" role="dialog" aria-label="Listas de difusión">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Listas de difusión</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <p class="priv-note" style="margin:0 2px 10px">📣 Envía un mismo mensaje a varias personas a la vez — cada quien lo recibe como mensaje normal tuyo.</p>
+              <div class="field"><input id="broadcastName" type="text" maxlength="48" placeholder="Nombre de la lista… ej.: Amigos del Malecón" autocomplete="off"></div>
+              <div class="priv-except-label" style="padding:0 2px 6px">Elige contactos</div>
+              <div id="broadcastContactList"></div>
+              <button class="btn btn-accent btn-block" id="createBroadcastBtn" style="margin:10px 0 4px">Guardar lista 📣</button>
+              <div class="priv-except-label" style="padding:14px 2px 6px">Tus listas</div>
+              <div id="broadcastLists"></div>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetLinkedDevices" role="dialog" aria-label="Dispositivos vinculados">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Dispositivos vinculados</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <p class="priv-note" style="margin:0 2px 10px">💻 Usa Caribe Web y vincula hasta 4 equipos además de este teléfono.</p>
+              <div id="deviceList"></div>
+              <button class="btn btn-ghost btn-block" id="linkDeviceBtn" style="margin-top:10px">+ Vincular un dispositivo</button>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetStarred" role="dialog" aria-label="Mensajes destacados">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Destacados ⭐</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <p class="priv-note" style="margin:0 2px 10px">⭐ Toca la estrella en cualquier burbuja y aparecerá aquí para siempre.</p>
+              <div id="starredList"></div>
+              <div class="hl-empty" id="starredEmpty" hidden>
+                <div class="big">⭐</div>
+                <p>Aún no tienes mensajes destacados.<br>Toca la ⭐ en cualquier burbuja.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetCINick" role="dialog" aria-label="Editar contacto">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Editar contacto</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <p class="priv-note" id="ciNickHint" style="margin:0 2px 10px">El apodo solo se muestra en tu teléfono.</p>
+              <div class="field"><label for="ciNickInput">Apodo</label><input id="ciNickInput" type="text" maxlength="40" autocomplete="off" placeholder="Ej.: mi brother, la jefa…"></div>
+              <button class="btn btn-accent btn-block" id="ciNickSave">Guardar</button>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetDisappear" role="dialog" aria-label="Mensajes temporales">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Mensajes temporales</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <p class="priv-note" style="margin:0 2px 10px">Los mensajes nuevos desaparecerán después del tiempo elegido.</p>
+              <div id="disappearList"></div>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetChatStyle" role="dialog" aria-label="Estilo del chat">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Estilo del chat</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <p class="priv-note" style="margin:0 2px 10px">Elige el fondo de este chat. Solo lo ves tú.</p>
+              <div class="ci-style-grid" id="ciStyleGrid"></div>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetEncrypt" role="dialog" aria-label="Cifrado de extremo a extremo">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Cifrado 🔒</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <p class="priv-note" style="margin:0 2px 10px">Compara este código con el de <b id="ciEncName">este contacto</b>. Si coincide, solo ustedes dos pueden leer los mensajes.</p>
+              <div class="ci-code" id="ciEncCode">00000 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000</div>
+              <button class="btn btn-accent btn-block" id="ciEncCopy">Copiar código</button>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetCIAddList" role="dialog" aria-label="Añadir a la lista">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Añadir a la lista</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <div id="ciListRows"></div>
+              <div class="field" style="margin-top:12px"><label for="ciNewListInput">Nueva lista</label><input id="ciNewListInput" type="text" maxlength="30" autocomplete="off" placeholder="Ej. Dominó del sábado"></div>
+              <button class="btn btn-accent btn-block" id="ciCreateListBtn">Crear lista con este contacto</button>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetCIConfirm" role="dialog" aria-label="Confirmar">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3 id="ciConfirmTitle">Confirmar</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <p class="priv-note" id="ciConfirmText" style="margin:0 2px 14px">¿Seguro?</p>
+              <button class="btn btn-danger btn-block" id="ciConfirmBtn">Confirmar</button>
+              <button class="btn btn-ghost btn-block" data-close-sheet style="margin-top:8px">Cancelar</button>
+            </div>
+          </div>
+
+          <input type="file" id="galleryInput" accept="image/*,video/*" hidden>
+          <input type="file" id="cameraInput" accept="image/*,video/*" capture="environment" hidden>
+          <input type="file" id="docInput" hidden>
+
+          <div class="sheet" id="sheetAttach" role="dialog" aria-label="Adjuntar">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Adjuntar</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <div class="attach-grid">
+                <button class="att-item" id="attCamera"><span class="att-ic" style="background:linear-gradient(140deg,#fb7185,#e11d48)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-2.5h6L17 8h3a1.6 1.6 0 0 1 1.6 1.6v9.8A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6V9.6A1.6 1.6 0 0 1 4 8Z"/><circle cx="12" cy="13.4" r="3.6"/></svg></span><span>Cámara</span></button>
+                <button class="att-item" id="attGallery"><span class="att-ic" style="background:linear-gradient(140deg,#22d3ee,#0891b2)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><circle cx="8.5" cy="10" r="1.3"/><path d="m21 15-4.5-4.5L9 18"/></svg></span><span>Galería</span></button>
+                <button class="att-item" id="attAudio"><span class="att-ic" style="background:linear-gradient(140deg,#4ade80,#16a34a)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V6l10-2.5V15"/><circle cx="6.8" cy="18" r="2.4"/><circle cx="16.8" cy="15" r="2.4"/></svg></span><span>Audio</span></button>
+                <button class="att-item" id="attDoc"><span class="att-ic" style="background:linear-gradient(140deg,#a78bfa,#7c3aed)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8.5L13.5 3Z"/><path d="M13.5 3v5.5H19"/></svg></span><span>Documento</span></button>
+                <button class="att-item" id="attLocation"><span class="att-ic" style="background:linear-gradient(140deg,#34d399,#059669)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg></span><span>Ubicación</span></button>
+                <button class="att-item" id="attContact"><span class="att-ic" style="background:linear-gradient(140deg,#60a5fa,#2563eb)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.5" r="3.4"/><path d="M5 20a7 7 0 0 1 14 0"/></svg></span><span>Contacto</span></button>
+                <button class="att-item" id="attPoll"><span class="att-ic" style="background:linear-gradient(140deg,#fbbf24,#d97706)"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 20V10M12 20V4M18 20v-7"/></svg></span><span>Encuesta</span></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetDocs" role="dialog" aria-label="Enviar documento">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Documento</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <div class="priv-except-label" style="padding:0 2px 6px">Recientes</div>
+              <div id="docRecentList"></div>
+              <button class="btn btn-ghost btn-block" id="docPickBtn" style="margin-top:10px">📂 Elegir de mi teléfono…</button>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetAudio" role="dialog" aria-label="Enviar audio">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Audio</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <div class="priv-except-label" style="padding:0 2px 6px">Audios recientes</div>
+              <div id="audioRecentList"></div>
+              <button class="btn btn-ghost btn-block" id="audioRecordBtn" style="margin-top:10px">🎙️ Grabar audio…</button>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetContact" role="dialog" aria-label="Enviar contacto">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Enviar contacto</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <div class="priv-except-label" style="padding:0 2px 6px">Tus contactos</div>
+              <div id="contactSendList"></div>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetPoll" role="dialog" aria-label="Crear encuesta">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Encuesta</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <div class="field"><input id="pollQuestion" type="text" maxlength="120" placeholder="Pregunta… ej.: ¿Quién trae el dominó el domingo?" autocomplete="off"></div>
+              <div class="priv-except-label" style="padding:2px 2px 6px">Opciones</div>
+              <div id="pollOptionList">
+                <input class="poll-input" type="text" maxlength="60" placeholder="Opción 1" autocomplete="off">
+                <input class="poll-input" type="text" maxlength="60" placeholder="Opción 2" autocomplete="off">
+                <input class="poll-input" type="text" maxlength="60" placeholder="Opción 3 (opcional)" autocomplete="off">
+                <input class="poll-input" type="text" maxlength="60" placeholder="Opción 4 (opcional)" autocomplete="off">
+              </div>
+              <button class="btn btn-accent btn-block" id="pollSendBtn" style="margin-top:10px">Enviar encuesta 📊</button>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetNewChat" role="dialog" aria-label="Nuevo chat">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Nuevo chat</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <label class="searchbar" style="margin:0 0 12px">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+                <input id="newChatSearch" type="text" placeholder="Buscar por nombre o número…" autocomplete="off">
+              </label>
+              <div id="contactList"></div>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetStatus" role="dialog" aria-label="Crear estado">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Tu estado</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <div id="statusPreview" style="height:170px;border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:#fff;margin-bottom:12px;background:linear-gradient(140deg,#f97316,#ec4899);text-align:center;padding:0 18px">
+                <div style="font-size:40px">🌴</div>
+                <div id="statusPreviewText" style="font-weight:800;font-size:16px;line-height:1.35;text-shadow:0 1px 6px rgba(0,0,0,.3)">Tu texto aparecerá aquí…</div>
+              </div>
+              <div class="field"><textarea id="statusText" rows="2" maxlength="160" placeholder="¿Qué hay de nuevo?"></textarea></div>
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+                <div class="emoji-pick" id="gradPick"></div>
+                <span id="statusCount" style="font-size:11px;color:var(--muted);font-weight:700">0/160</span>
+              </div>
+              <button class="btn btn-accent btn-block" id="publishStatusBtn">Publicar estado ✨</button>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetStatusPrivacy" role="dialog" aria-label="Privacidad de estado">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Privacidad de estado</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <p class="priv-lead">¿Quién puede ver tus estados?</p>
+              <button class="priv-opt" data-priv="todos"><span class="priv-ic">🌎</span><span>Todos<small>Cualquiera con mi número verá tus estados</small></span><span class="priv-check">✓</span></button>
+              <button class="priv-opt" data-priv="contacts"><span class="priv-ic">👥</span><span>Mis contactos<small>Solo quienes tienes guardados en la agenda</small></span><span class="priv-check">✓</span></button>
+              <button class="priv-opt" data-priv="except"><span class="priv-ic">🚫</span><span>Mis contactos, excepto…<small>Oculta el estado a quien tú digas</small></span><span class="priv-check">✓</span></button>
+              <div class="priv-except" id="privExceptWrap" hidden>
+                <div class="priv-except-label">Ocultar a</div>
+                <div id="privExceptList"></div>
+              </div>
+              <p class="priv-note">🔒 Aplica a tus próximos estados. Nadie se entera de cuál elegiste.</p>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetHighlights" role="dialog" aria-label="Estados destacados">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Destacados ⭐</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <p class="priv-note" style="margin:0 2px 10px">⭐ Marca tus estados favoritos con estrella y vivan para siempre en la franja «Destacados» de la página de Estados — como los momentos clásicos del barrio.</p>
+              <div id="highlightList"></div>
+              <div class="hl-empty" id="highlightEmpty" hidden>
+                <div class="big">⭐</div>
+                <p>Aún no tienes estados propios para destacar.<br>Publica uno y vuelve.</p>
+                <button class="btn btn-accent btn-block" id="highlightCreateBtn">Crear con la cámara 📷</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetSell" role="dialog" aria-label="Vender algo">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Vender algo</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <div class="field"><label for="sellTitle">¿Qué vendes?</label><input id="sellTitle" type="text" placeholder="Ej.: Nevera inverter en buen estado" autocomplete="off"></div>
+              <div class="field-row">
+                <div class="field"><label for="sellPrice">Precio</label><div class="price-wrap"><span>RD$</span><input id="sellPrice" type="number" min="0" placeholder="12,500"></div></div>
+                <div class="field"><label for="sellCat">Categoría</label><select id="sellCat"><option value="General">General</option><option value="vehiculos">Vehículos</option><option value="alquiler">Alquiler</option><option value="Comida">Comida</option><option value="Electrónica">Electrónica</option><option value="Ropa">Ropa</option><option value="Hogar">Hogar</option></select></div>
+              </div>
+              <div class="field"><label>Foto del artículo</label><div class="emoji-pick" id="sellEmoji"></div></div>
+              <div class="field"><label for="sellCity">Ubicación</label><select id="sellCity"><option>Santo Domingo</option><option>Santiago</option><option>La Vega</option><option>San Pedro de Macorís</option><option>La Romana</option><option>Bávaro / Punta Cana</option><option>Toda República Dominicana</option></select></div>
+              <button class="btn btn-accent btn-block" id="publishSellBtn">Publicar anuncio 📣</button>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetProduct" role="dialog" aria-label="Detalle del producto">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Detalle</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <div class="pd-img" id="pdImg">🛍️</div>
+              <div class="pd-price" id="pdPrice">RD$0</div>
+              <div class="pd-title" id="pdTitle">Producto</div>
+              <div class="seller-row">
+                <div class="avatar" id="pdSellerAvatar" style="background:#64748b">?</div>
+                <div><b id="pdSellerName">Vendedor</b><span id="pdSellerMeta">Vendedor de Caribe</span></div>
+              </div>
+              <p id="pdDesc" style="font-size:12.5px;color:var(--muted);line-height:1.55;margin-bottom:14px">Descripción del producto.</p>
+              <div class="pd-actions" style="margin-bottom:10px">
+                <button class="btn btn-accent" id="pdBuyBtn" style="font-size:14px;padding:13px 10px">🛒 Comprar ahora</button>
+              </div>
+              <div class="pd-actions">
+                <button class="btn btn-ghost" id="pdChatBtn">💬 Hablar con el vendedor</button>
+                <button class="btn btn-ghost" id="pdCallBtn" style="flex:0 0 54px;padding:0" aria-label="Llamar"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 3.5h3.6l1.7 4.6-2.3 1.7a13 13 0 0 0 6.7 6.7l1.7-2.3 4.6 1.7v3.6a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 3.5 5.7a2 2 0 0 1 2-2.2Z"/></svg></button>
+              </div>
+              <p class="safety-tip">🔒 Nunca envíes dinero por adelantado. Reúnete en un lugar público y seguro.</p>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetBiz" role="dialog" aria-label="Detalle del negocio">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Negocio</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <button class="pf-btn-ghost" id="bizProfileBtn" style="width:100%;height:38px;font-size:12px;margin-bottom:14px;flex:0 0 auto">👤 Ver perfil del negocio</button>
+              <div class="biz-cover" id="bizCover"><span id="bizCoverEmoji">🍗</span><div class="biz-cover-name" id="bizCoverName">Negocio</div></div>
+              <div id="bizVerifiedRow" style="display:flex;gap:8px;align-items:center;margin-bottom:8px"></div>
+              <div style="display:flex;align-items:center;gap:7px;font-size:12px;font-weight:700;color:#0b7a54;margin-bottom:4px"><span style="width:8px;height:8px;border-radius:50%;background:#cbd5e1;display:inline-block"></span><span id="bizOpenNote">Horario por confirmar</span></div>
+              <div class="biz-detail-chips" id="bizChipsDetail"></div>
+              <div class="addr-row"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg><span id="bizAddress">Dirección del negocio</span><a href="#" id="bizDirections">Cómo llegar →</a></div>
+              <div class="sel-head" style="padding:0 0 6px"><span>Productos</span></div>
+              <div id="bizProducts"></div>
+              <div class="pd-biz-actions">
+                <button class="btn btn-accent" id="bizChatBtn">💬 Chat con el negocio</button>
+                <button class="btn btn-ghost btn-ic" id="bizCallBtn" aria-label="Llamar al negocio"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 3.5h3.6l1.7 4.6-2.3 1.7a13 13 0 0 0 6.7 6.7l1.7-2.3 4.6 1.7v3.6a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 3.5 5.7a2 2 0 0 1 2-2.2Z"/></svg></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetOrders" role="dialog" aria-label="Mis pedidos">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Mis pedidos</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body" id="ordersList"></div>
+          </div>
+
+          <div class="sheet" id="sheetMyBiz" role="dialog" aria-label="Mi negocio">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Mi negocio</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <div style="text-align:center;padding:30px 18px 8px">
+                <div style="font-size:44px">🏪</div>
+                <b style="font-size:16px">Aún no tienes un negocio publicado</b>
+                <p style="font-size:12px;color:var(--muted);line-height:1.65;margin:10px 0 0">Cuando des de alta tu negocio en Caribe, aquí verás vistas, pedidos y ventas — con tus números reales, no de ejemplo.</p>
+              </div>
+              <div style="text-align:center;margin-top:18px">
+                <button class="btn btn-ghost" data-close-sheet style="min-width:160px">Entendido</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetComments" role="dialog" aria-label="Comentarios">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3 id="commentsTitle">430 comentarios</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body" style="padding-bottom:12px">
+              <div id="commentsList" style="display:flex;flex-direction:column;gap:12px;margin-bottom:12px"></div>
+              <div style="display:flex;gap:9px;align-items:center;border-top:1px solid var(--line);padding-top:12px;position:sticky;bottom:0;background:var(--panel)">
+                <div class="avatar" style="width:36px;height:36px;font-size:10px;background:#0da271">TÚ</div>
+                <input id="commentInput" type="text" placeholder="Agrega un comentario…" autocomplete="off" style="flex:1;height:42px;border:1.5px solid var(--panel-3);background:var(--panel-2);border-radius:99px;padding:0 16px;outline:none;font-family:inherit;font-size:13px;color:var(--text)">
+                <button class="send-fab" id="sendCommentBtn" style="width:42px;height:42px;box-shadow:none" aria-label="Enviar comentario"><svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M3.7 11.2 20 3.4c.8-.35 1.55.7 1.15 1.4l-6.6 15.6c-.42 1-1.86 1-2.24.02l-2.5-6.4a.8.8 0 0 0-.5-.5l-6-2.1c-.98-.33-.92-1.68.1-1.97Z"/></svg></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="sheet" id="sheetShare" role="dialog" aria-label="Compartir">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Compartir Vibra</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body"><div class="share-grid" id="shareGrid"></div></div>
+          </div>
+
+          <div class="sheet" id="sheetCity" role="dialog" aria-label="Ubicación">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>¿Dónde vendes?</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body" id="cityList"></div>
+          </div>
+
+          <div class="sheet" id="sheetBizPublish" role="dialog" aria-label="Publicar negocio">
+            <div class="sheet-handle"></div>
+            <div class="sheet-head"><h3>Publicar mi negocio</h3><button class="sheet-close" data-close-sheet><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+            <div class="sheet-body">
+              <div class="field"><label for="bizPubName">Nombre del negocio</label><input id="bizPubName" type="text" placeholder="Ej.: Colmado La Esquina" autocomplete="off"></div>
+              <div class="field-row">
+                <div class="field"><label for="bizPubCat">Categoría</label><select id="bizPubCat"><option value="comida">Comida</option><option value="belleza">Belleza</option><option value="ropa">Ropa y uniforme</option><option value="colmado">Colmado</option></select></div>
+                <div class="field"><label for="bizPubEmoji">Logo</label><select id="bizPubEmoji"><option>🍗</option><option>🍔</option><option>💇</option><option>💅</option><option>🛒</option><option>👔</option><option>🍰</option><option>🔧</option></select></div>
+              </div>
+              <div class="field"><label for="bizPubCity">Ciudad</label><select id="bizPubCity"><option>Santo Domingo</option><option>Santiago</option><option>La Vega</option><option>San Pedro de Macorís</option><option>La Romana</option></select></div>
+              <button class="btn btn-accent btn-block" id="publishBizBtn">Publicar gratis 🚀</button>
+              <p style="font-size:10.5px;color:var(--muted);text-align:center;margin-top:10px">En pruebas · Por ahora tu negocio vive en este teléfono. La vitrina pública para todos llega cuando activemos cuentas de negocio 🌴</p>
+            </div>
+          </div>
+
+
+          <!-- Configuración y actividad (perfil ☰) -->
+          <div class="settings-overlay" id="settingsOverlay" role="dialog" aria-modal="true" aria-label="Configuración y actividad">
+            <div class="st-top">
+              <button class="creator-ic" id="stBack" aria-label="Atrás" style="background:var(--line);color:var(--ink)"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button>
+              <b id="stTitle">Configuración y actividad</b>
+              <span style="width:41px;flex:0 0 auto"></span>
+            </div>
+            <div class="st-scroll" id="stScroll">
+              <div class="st-search" id="stSearchWrap"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.8-3.8"/></svg><input id="stSearch" type="search" placeholder="Buscar en Configuración" autocomplete="off" aria-label="Buscar en Configuración"></div>
+              <div class="st-noresults" id="stNoResults" hidden>Sin resultados para «<span id="stNoResultsQ"></span>»</div>
+
+              <div class="st-view" id="stViewRoot">
+            <div class="st-section"><span>Tu cuenta</span></div>
+            <button class="st-row" id="stAcctBtn"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.2" r="3.6"/><path d="M5.2 20.2c1.4-3.9 3.9-5.9 6.8-5.9s5.4 2 6.8 5.9"/></svg></span><span class="st-lab">Cuenta de Caribe<small id="stAcctSub">Tú · @caribe</small></span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+            <button class="st-row" data-st-open="qr"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="7" height="7" rx="1"/><rect x="13.5" y="3.5" width="7" height="7" rx="1"/><rect x="3.5" y="13.5" width="7" height="7" rx="1"/><path d="M13.5 13.5h2.6v2.6h-2.6zM21 13.5v.5M17.5 17.5v.5M21 21h.5M13.5 21h.5"/></svg></span><span class="st-lab">Tu código QR</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+            <button class="st-row" data-st-open="activity"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15.5l4.2-6.3 4 4.8 4-8.5 3.8 5"/></svg></span><span class="st-lab">Tu actividad</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+            <button class="st-row" id="stSavedRow"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3.5h11V21L12 17.2 6.5 21V3.5Z"/></svg></span><span class="st-lab">Guardado</span><span class="st-val" id="stSavedCount">0</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+
+            <div class="st-section"><span>Quién puede ver tu contenido</span></div>
+            <button class="st-row" data-st-open="privacy"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="10" width="15" height="10" rx="2.2"/><path d="M8 10V7.5a4 4 0 0 1 8 0V10"/></svg></span><span class="st-lab">Privacidad de la cuenta</span><span class="st-val" id="stPrivacyVal">Público</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+            <button class="st-row" data-st-open="bff"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.6l2.6 5.3 5.8.9-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L4.6 9.8l5.8-.9L12 3.6Z"/></svg></span><span class="st-lab">Mejores amigos</span><span class="st-val" id="stBffCount">0</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+            <button class="st-row" data-st-open="blocked"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M6.2 6.2l11.6 11.6"/></svg></span><span class="st-lab">Cuentas bloqueadas</span><span class="st-val" id="stBlockedCount">0</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+
+            <div class="st-section"><span>Cómo usas Caribe</span></div>
+            <button class="st-row" data-st-open="notif"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15V10.8a6 6 0 1 0-12 0V15l-1.6 3.2h15.2L18 15Z"/><path d="M10.2 21.2a2 2 0 0 0 3.6 0"/></svg></span><span class="st-lab">Notificaciones</span><span class="st-val" id="stNotifVal">Activadas</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+            <button class="st-row" data-st-open="time"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.4V12l3 2"/></svg></span><span class="st-lab">Administración del tiempo</span><span class="st-val" id="stTimeVal"></span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+
+            <div class="st-section"><span>Tu aplicación y contenido</span></div>
+            <button class="st-row" data-st-open="access"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5.4" r="1.7"/><path d="M4.8 9.6c4.8 1.5 9.6 1.5 14.4 0M12 11.4v4.6M9.3 20.8l2.7-4.8 2.7 4.8"/></svg></span><span class="st-lab">Accesibilidad</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+            <button class="st-row" data-st-open="data"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5V15M8 11.2l4 4 4-4"/><path d="M4.5 17.2v2a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-2"/></svg></span><span class="st-lab">Archivo y descarga</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+            <button class="st-row" data-st-open="lang"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.7"/><path d="M3.3 12h17.4M12 3.3a13.6 13.6 0 0 1 0 17.4M12 3.3a13.6 13.6 0 0 0 0 17.4"/></svg></span><span class="st-lab">Idioma</span><span class="st-val">Español</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+
+            <div class="st-section"><span>Más información y ayuda</span></div>
+            <button class="st-row" data-st-open="help"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.7"/><path d="M9.6 9.3a2.5 2.5 0 0 1 4.9.7c0 1.7-2.3 2-2.5 3.2"/><path d="M12 16.8v.2"/></svg></span><span class="st-lab">Ayuda</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+            <button class="st-row" data-st-open="status"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.2l7 2.8v5.8c0 4.6-3 7.9-7 9.6-4-1.7-7-5-7-9.6V6l7-2.8Z"/><path d="M9.4 12l2 2 3.4-3.6"/></svg></span><span class="st-lab">Estado de la cuenta</span><span class="st-val ok">● Bueno</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+            <button class="st-row" data-st-open="about"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.7"/><path d="M12 11v5M12 7.4v.2"/></svg></span><span class="st-lab">Acerca de Caribe</span><span class="st-val">v2.4.1</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+
+            <div class="st-section"><span>Iniciar sesión</span></div>
+            <button class="st-row" id="stAddAccount"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="8.2" r="3.4"/><path d="M4.5 19.8c1.3-3.5 3.4-5.2 6-5.2s4.7 1.7 6 5.2M19 8v5M21.5 10.5h-5"/></svg></span><span class="st-lab">Añadir cuenta</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+            <button class="st-row danger" id="stSignout"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6.5a2 2 0 0 0 2-2v-2"/><path d="M10 12h10M17 8.8l3.2 3.2-3.2 3.2"/></svg></span><span class="st-lab">Cerrar sesión</span></button>
+            <p class="st-foot">Caribe v2.4.1 · La súper app del Caribe 🇩🇴<br>Hecha con sazón dominicano</p>
+              </div>
+
+              <div class="st-sub" id="stSub-qr" hidden>
+                <div class="st-card">
+                  <div class="st-qr-box"><canvas id="stQrCanvas" width="172" height="172" role="img" aria-label="Código QR de tu perfil"></canvas></div>
+                  <b id="stQrName" style="font-size:16px">Tú</b>
+                  <span id="stQrHandle" style="color:var(--muted);font-size:12px">@caribe</span>
+                  <button class="btn btn-accent btn-block" id="stQrShare" style="margin-top:6px">🔗 Compartir enlace</button>
+                </div>
+                <p class="st-note">Cualquiera que escanee este código abre tu perfil en Caribe. Se genera en tu teléfono, sin internet.</p>
+              </div>
+
+              <div class="st-sub" id="stSub-activity" hidden>
+                <div class="st-grid2">
+                  <div class="st-stat"><b id="stActPosts">0</b><span>publicaciones</span></div>
+                  <div class="st-stat"><b id="stActLikes">0</b><span>me gusta dados</span></div>
+                  <div class="st-stat"><b id="stActMsgs">0</b><span>mensajes enviados</span></div>
+                  <div class="st-stat"><b id="stActSaved">0</b><span>guardados</span></div>
+                </div>
+                <div class="st-actions-p"><button class="btn btn-accent btn-block" id="stDownloadBtn">⬇️ Descargar mis datos</button></div>
+                <p class="st-note" style="margin-top:10px">Incluye publicaciones, me gusta, mensajes, seguidos y ajustes en un archivo JSON.</p>
+              </div>
+
+              <div class="st-sub" id="stSub-privacy" hidden>
+                <div class="st-option" data-priv="public" role="radio" aria-checked="true" tabindex="0"><span style="font-size:24px">🌎</span><span><b>Público</b><small>Cualquiera puede ver tu perfil y tus publicaciones</small></span><span class="st-check"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.6l5 5L19.5 6.6"/></svg></span></div>
+                <div class="st-option" data-priv="private" role="radio" aria-checked="false" tabindex="0"><span style="font-size:24px">🔒</span><span><b>Privado</b><small>Solo las personas que apruebes verán tus publicaciones nuevas</small></span><span class="st-check"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.6l5 5L19.5 6.6"/></svg></span></div>
+                <div class="st-section"><span>Solicitudes</span></div>
+                <button class="st-row" id="stRequestsRow"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="8.2" r="3.4"/><path d="M4.5 19.8c1.3-3.5 3.4-5.2 6-5.2s4.7 1.7 6 5.2M19 8v5M21.5 10.5h-5"/></svg></span><span class="st-lab">Solicitudes de seguimiento</span><span class="st-val">0</span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+              </div>
+
+              <div class="st-sub" id="stSub-bff" hidden>
+                <p class="st-note">Toca la estrella para añadir o quitar a alguien de tus mejores amigos. Ellos verán tu contenido verde.</p>
+                <div id="stBffList"></div>
+              </div>
+
+              <div class="st-sub" id="stSub-blocked" hidden>
+                <p class="st-note">Las cuentas bloqueadas no pueden seguirte ni escribirte. Al bloquear a alguien, dejas de seguirle.</p>
+                <div id="stBlockedList"></div>
+              </div>
+
+              <div class="st-sub" id="stSub-notif" hidden>
+                <div class="st-toggle-row"><span class="st-lab">Mensajes y reacciones<small>Avisos de chats y respuestas</small></span><button class="st-switch" role="switch" aria-checked="true" data-notif="msg" aria-label="Alternar"></button></div>
+                <div class="st-toggle-row"><span class="st-lab">Me gusta y comentarios<small>Cuando reaccionen a tus publicaciones</small></span><button class="st-switch" role="switch" aria-checked="true" data-notif="likes" aria-label="Alternar"></button></div>
+                <div class="st-toggle-row"><span class="st-lab">Nuevos seguidores<small>Cuando alguien empiece a seguirte</small></span><button class="st-switch" role="switch" aria-checked="true" data-notif="follows" aria-label="Alternar"></button></div>
+                <div class="st-toggle-row"><span class="st-lab">En vivo<small>Transmisiones de creadores que sigues</small></span><button class="st-switch" role="switch" aria-checked="true" data-notif="live" aria-label="Alternar"></button></div>
+                <div class="st-toggle-row"><span class="st-lab">Market<small>Ofertas y preguntas sobre tus artículos</small></span><button class="st-switch" role="switch" aria-checked="true" data-notif="market" aria-label="Alternar"></button></div>
+                <p class="st-note" style="margin-top:6px">Los cambios se guardan en este teléfono.</p>
+              </div>
+
+              <div class="st-sub" id="stSub-time" hidden>
+                <div class="st-bigtime" id="stSessionTime">00:00</div>
+                <p class="st-note" style="text-align:center">en esta sesión</p>
+                <div class="st-toggle-row" style="border-top:1px solid var(--line);margin-top:8px"><span class="st-lab">Recordatorio diario de tiempo<small>Te avisaremos si llevas demasiado rato en Caribe</small></span><button class="st-switch" id="stTimeReminder" role="switch" aria-checked="false" aria-label="Recordatorio diario de tiempo"></button></div>
+                <div class="st-section"><span>Silenciar notificaciones</span></div>
+                <div class="st-option sel" data-silence="off" role="radio" tabindex="0"><span style="font-size:20px">🔔</span><span><b>Desactivado</b><small>Recibes notificaciones normalmente</small></span><span class="st-check"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.6l5 5L19.5 6.6"/></svg></span></div>
+                <div class="st-option" data-silence="1h" role="radio" tabindex="0"><span style="font-size:20px">⏰</span><span><b>1 hora</b><small>Silencio por una hora</small></span><span class="st-check"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.6l5 5L19.5 6.6"/></svg></span></div>
+                <div class="st-option" data-silence="8h" role="radio" tabindex="0"><span style="font-size:20px">🌙</span><span><b>8 horas</b><small>Ideal para una noche de descanso</small></span><span class="st-check"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.6l5 5L19.5 6.6"/></svg></span></div>
+                <div class="st-option" data-silence="weekend" role="radio" tabindex="0"><span style="font-size:20px">🌴</span><span><b>Hasta el lunes</b><small>Desconecta de verdad este fin de semana</small></span><span class="st-check"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.6l5 5L19.5 6.6"/></svg></span></div>
+              </div>
+
+              <div class="st-sub" id="stSub-access" hidden>
+                <div class="st-toggle-row"><span class="st-lab">Reducir movimiento<small>Desactiva animaciones y transiciones en toda la app</small></span><button class="st-switch" id="stReduceMotion" role="switch" aria-checked="false" aria-label="Reducir movimiento"></button></div>
+                <div class="st-toggle-row"><span class="st-lab">Contraste alto<small>Texto y bordes más marcados para mejor lectura</small></span><button class="st-switch" id="stHighContrast" role="switch" aria-checked="false" aria-label="Contraste alto"></button></div>
+                <p class="st-note" style="margin-top:8px">Caribe también soporta el tema claro/oscuro con la luna 🌙.</p>
+              </div>
+
+              <div class="st-sub" id="stSub-data" hidden>
+                <div class="st-section"><span>Tus datos</span></div>
+                <button class="st-row" id="stDownloadBtn2"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5V15M8 11.2l4 4 4-4"/><path d="M4.5 17.2v2a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-2"/></svg></span><span class="st-lab">Descargar mis datos<small>Publicaciones, mensajes, ajustes… (JSON)</small></span><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></button>
+                <div class="st-section"><span>Zona de peligro</span></div>
+                <button class="st-row danger" id="stResetDemo"><span class="st-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M6.2 6.2l11.6 11.6"/></svg></span><span class="st-lab">Borrar mis datos de este teléfono<small>Elimina publicaciones, seguidos y ajustes guardados aquí</small></span></button>
+                <p class="st-note" style="margin-top:8px">Restablecer recarga la app a su estado original. No se puede deshacer.</p>
+              </div>
+
+              <div class="st-sub" id="stSub-lang" hidden>
+                <div class="st-option sel" data-lang="es" role="radio" aria-checked="true" tabindex="0"><span style="font-size:22px">🇩🇴</span><span><b>Español</b><small>Español (República Dominicana)</small></span><span class="st-check"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.6l5 5L19.5 6.6"/></svg></span></div>
+                <div class="st-option" disabled role="radio" aria-disabled="true"><span style="font-size:22px">🇺🇸</span><span><b>English</b><small>English (United States)</small></span><span class="st-soon">Próximamente</span></div>
+                <div class="st-option" disabled role="radio" aria-disabled="true"><span style="font-size:22px">🇫🇷</span><span><b>Français</b><small>Français (France)</small></span><span class="st-soon">Próximamente</span></div>
+              </div>
+
+              <div class="st-sub" id="stSub-help" hidden>
+                <div class="st-faq open"><button class="st-faq-q">¿Cómo cambio mi foto de perfil?<span class="st-chev" style="margin-left:auto"><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></span></button><div class="st-faq-a"><div>Abre tu perfil (tu círculo arriba a la derecha en cualquier pantalla) → <b>Editar perfil</b> → <b>📷 Cambiar foto</b>. Se guarda en tu teléfono.</div></div></div>
+                <div class="st-faq"><button class="st-faq-q">¿Cómo transmito EN VIVO?<span class="st-chev" style="margin-left:auto"><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></span></button><div class="st-faq-a"><div>Ve a <b>Estados</b> → botón <b>EN VIVO</b> y transmite con la cámara de tu teléfono. Por ahora el en vivo es solo para ti — las transmisiones públicas llegan cuando más amigos se unan 🌹.</div></div></div>
+                <div class="st-faq"><button class="st-faq-q">¿Dónde veo lo que guardé?<span class="st-chev" style="margin-left:auto"><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></span></button><div class="st-faq-a"><div>Abre tu perfil → pestaña del <b>marcador</b> (Guardados). Todo lo que guardes en Market o Vibra aparece ahí.</div></div></div>
+                <div class="st-faq"><button class="st-faq-q">¿Caribe funciona sin internet?<span class="st-chev" style="margin-left:auto"><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></span></button><div class="st-faq-a"><div>El chat y el registro necesitan el servidor de Caribe. Tus ajustes y estados se guardan en este teléfono; los mensajes llegan cuando tu amigo también está conectado.</div></div></div>
+              </div>
+
+              <div class="st-sub" id="stSub-status" hidden>
+                <div class="st-status-hero">
+                  <div class="ok-ring"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#0a8f6c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.6l5 5L19.5 6.6"/></svg></div>
+                  <b style="font-size:16px">Tu cuenta está en buen estado</b>
+                  <span style="color:var(--muted);font-size:11.5px">Revisión automática · actualizada hoy</span>
+                </div>
+                <div class="st-inline-list">
+                  <div class="st-inline-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#0a8f6c" stroke-width="3" stroke-linecap="round"><path d="M4.5 12.6l5 5L19.5 6.6"/></svg>Sin infracciones de las normas de la comunidad</div>
+                  <div class="st-inline-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#0a8f6c" stroke-width="3" stroke-linecap="round"><path d="M4.5 12.6l5 5L19.5 6.6"/></svg>Sin restricciones ni strikes de contenido</div>
+                  <div class="st-inline-item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#0a8f6c" stroke-width="3" stroke-linecap="round"><path d="M4.5 12.6l5 5L19.5 6.6"/></svg>Contenido original — eres su autor</div>
+                </div>
+              </div>
+
+              <div class="st-sub" id="stSub-about" hidden>
+                <div class="st-status-hero" style="padding-top:26px">
+                  <div class="so-logo" style="color:var(--ink);font-size:30px">Caribe<i style="color:#00a884">.</i></div>
+                  <span style="color:var(--muted);font-size:11.5px">La súper app del Caribe · v2.4.1</span>
+                  <span style="color:var(--muted);font-size:11.5px">Hecha en República Dominicana 🇩🇴</span>
+                </div>
+                <div class="st-faq"><button class="st-faq-q">Términos del servicio<span class="st-chev" style="margin-left:auto"><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></span></button><div class="st-faq-a"><div>Caribe está en pruebas con un grupo pequeño de usuarios. No cobramos ni vendemos tus datos. Trata a la comunidad con respeto.</div></div></div>
+                <div class="st-faq"><button class="st-faq-q">Política de privacidad<span class="st-chev" style="margin-left:auto"><svg class="st-chev" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 6l6 6-6 6"/></svg></span></button><div class="st-faq-a"><div>Tus mensajes pasan por el servidor de Caribe y se guardan en tu teléfono para entregarlos. No usamos analítica ni vendemos tus datos. Puedes borrar tus datos locales en <b>Borrar mis datos de este teléfono</b>.</div></div></div>
+                <p class="st-foot">© 2026 Caribe · Todos los derechos reservados</p>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Sesión cerrada -->
+          <div class="signout-overlay" id="signoutOverlay" role="dialog" aria-label="Sesión cerrada">
+            <div class="so-logo">Caribe<i>.</i></div>
+            <p class="so-title">Sesión cerrada</p>
+            <p class="so-sub">Tus datos siguen guardados en este teléfono.<br>Vuelve cuando quieras 👋</p>
+            <button class="so-btn" id="soRelogin">Iniciar sesión de nuevo</button>
+          </div>
+
+          <!-- Toast + push -->
+          <div class="toast" id="toast" role="status"></div>
+          <div class="push" id="pushBanner" role="button" tabindex="0" aria-label="Notificación">
+            <div class="push-app"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-8.5 8.3 8.9 8.9 0 0 1-3.8-.8L3 21l2.2-5.4a8 8 0 0 1-.7-3.1A8.4 8.4 0 0 1 12.5 4a8.4 8.4 0 0 1 8.5 7.5Z"/></svg></div>
+            <div style="flex:1;min-width:0"><b><span id="pushName">Caribe</span><i>ahora</i></b><p id="pushText">Tienes un mensaje nuevo</p></div>
+          </div>
+
+        </div><!-- /.screen -->
+      </div><!-- /.phone -->
+    </div><!-- /.phone-wrap -->
+    <div class="caption"><span class="dot-live"></span>Vista de teléfono · <b>Caribe</b></div>
+  </div><!-- /.phone-col -->
+
+  <!-- ============ Copia lateral derecha (desktop) ============ -->
+  <aside class="side-tips">
+    <div class="tip-card">
+      <h3><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.8.7 1 1.5 1 2.5h6c0-1 .2-1.8 1-2.5A6 6 0 0 0 12 3Z"/></svg>Cómo probarla</h3>
+      <div class="tip"><b>①</b><span>Regístrate con tu <b>número y país</b> — solo verás personas que también se registraron.</span></div>
+      <div class="tip"><b>②</b><span>Abre <b>Nuevo chat</b> ⋮ y escribe a un amigo que ya tenga Caribe.</span></div>
+      <div class="tip"><b>③</b><span>En <b>Vibra</b>, desliza las historias y toca dos veces para dar <b>me gusta</b>.</span></div>
+      <div class="tip"><b>④</b><span>Toca <b>Ir en vivo</b> en Estados y envía rosas 🌹 a la transmisión.</span></div>
+      <div class="tip"><b>⑤</b><span>La luna <kbd>🌙</kbd> alterna el modo oscuro en toda la app.</span></div>
+      <div class="tip-foot">Los chats se guardan en tu cuenta de este servidor — no es una demo.</div>
+    </div>
+  </aside>
+
+</div><!-- /.stage -->

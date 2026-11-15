@@ -1,0 +1,14 @@
+{
+  "name": "caribe",
+  "version": "3.3.0",
+  "description": "Caribe — la súper app del Caribe (v3.3: pantalla completa en el teléfono, carga rápida y offline, actualización automática)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
